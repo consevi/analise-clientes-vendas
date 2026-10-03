@@ -1,1 +1,801 @@
-
+id_cli;nm_cliente;nm_cidade;sg_uf;renda_mensal;idade;data_cadastro;dt_cad_str;email
+1;Diego Silva;Londrina;PR;3157.00;24;2024-11-23;;
+2;Natália Silva;São Paulo;SP;3176.00;19;2024-07-28;28/07/2024;teste@teste.com
+3;Natália Oliveira;Caxias do Sul;RS;1526.00;39;2023-10-12;12/10/2023;natália.oliveira@exemplo.com
+4;Diego Souza;Porto Alegre;RS;6404.00;69;2023-02-14;;diego.souza@exemplo.com
+5;Marina Souza;Feira de Santana;ba;6093.00;20;2024-11-08;08/11/2024;teste@teste.com
+6;Henrique Souza;Caxias do Sul;rs;12447.00;40;2023-08-03;;henrique.souza@exemplo.com
+7;Carla Lima;Salvador;BA;3146.00;58;2024-12-05;;carla.lima@exemplo.com
+8;Bruno Oliveira;Campinas;SP;8248.00;;2024-08-03;;bruno.oliveira@exemplo.com
+9;Marina Rodrigues;Niterói;rj;2705.00;52;2023-09-27;;marina.rodrigues@exemplo.com
+10;Marina Pereira;Rio de Janeiro;RJ;11886.00;25;2023-06-06;;marina.pereira@exemplo.com
+11;Vitória Souza;Caxias do Sul;RS;12783.00;53;2023-01-12;;teste@teste.com
+12;Sara Santos;Londrina;PR;2301.00;47;2023-01-04;;
+13;Rafael Lima;Salvador;BA;4739.00;27;2024-01-18;18/01/2024;rafael.lima@exemplo.com
+14;Rafael Silva;Feira de Santana;ba;11739.00;41;2023-11-11;11/11/2023;rafael.silva@exemplo.com
+15;Carla Souza;Londrina;PR;2790.00;26;2024-11-06;20241106;
+16;Rafael Costa;Rio de Janeiro;RJ;4517.00;59;2024-01-18;20240118;
+17;Henrique Oliveira;Campinas;SP;1671.00;18;2023-03-14;;teste@teste.com
+18;Bruno Pereira;Santos;sp;3270.00;31;2024-07-06;06/07/2024;teste@teste.com
+19;Tiago Rodrigues;Niterói;RJ;8089.00;;2024-11-05;20241105;tiago.rodrigues@exemplo.com
+20;Bruno Souza;Campinas;SP;5923.00;30;2024-07-03;20240703;bruno.souza@exemplo.com
+21;Otávio Oliveira;Campinas;sp;1803.00;52;2023-01-16;2023-01-16;
+22;Felipe Costa;Caxias do Sul;RS;3521.00;28;2024-01-24;2024-01-24;
+23;Otávio Santos;Caxias do Sul;RS;2588.00;21;2024-08-16;;otávio.santos@exemplo.com
+24;Bruno Silva;Feira de Santana;BA;2316.00;23;2023-07-10;2023-07-10;bruno.silva@exemplo.com
+25;Henrique Costa;Santos;SP;2781.00;44;2024-11-04;;henrique.costa@exemplo.com
+26;Isabela Oliveira;Londrina;pr;3243.00;60;2024-10-22;22/10/24;isabela.oliveira@exemplo.com
+27;Carla Silva;Porto Alegre;RS;2136.00;26;2023-12-24;2023-12-24;
+28;Felipe Rodrigues;Feira de Santana;BA;1813.00;24;2023-05-18;18/05/23;felipe.rodrigues@exemplo.com
+29;Sara Lima;Contagem;mg;3402.00;58;2023-09-28;;sara.lima@exemplo.com
+30;Bruno Souza;Londrina;PR;3790.00;;2023-05-14;;
+31;Otávio Costa;Salvador;BA;1854.00;62;2023-06-02;;otávio.costa@exemplo.com
+32;Sara Lima;Porto Alegre;RS;1831.00;68;2023-02-10;10/02/23;sara.lima@exemplo.com
+33;Diego Pereira;Feira de Santana;BA;2684.00;69;2023-07-01;20230701;diego.pereira@exemplo.com
+34;Karen Costa;Curitiba;PR;4026.00;24;2024-01-27;2024-01-27;
+35;Otávio Pereira;Belo Horizonte;mg;2748.00;43;2023-12-03;03/12/23;
+36;Isabela Pereira;Londrina;PR;5756.00;34;2023-07-02;;
+37;Diego Costa;Contagem;MG;8747.00;54;2023-07-14;14/07/23;diego.costa@exemplo.com
+38;Rafael Oliveira;Contagem;MG;2376.00;60;2023-05-08;;
+39;Natália Pereira;Caxias do Sul;RS;2592.00;42;2024-11-24;;
+40;João Costa;Salvador;BA;4287.00;68;2024-08-16;;teste@teste.com
+41;Otávio Oliveira;Feira de Santana;ba;2373.00;60;2024-10-10;;otávio.oliveira@exemplo.com
+42;Henrique Santos;Rio de Janeiro;RJ;2250.00;;2024-05-01;;
+43;Natália Oliveira;Londrina;pr;12518.00;59;2024-12-05;2024-12-05;
+44;Diego Costa;Rio de Janeiro;RJ;11802.00;25;2024-04-12;12/04/2024;
+45;Sara Pereira;Caxias do Sul;rs;12025.00;48;2024-04-05;05/04/24;teste@teste.com
+46;Isabela Rodrigues;Curitiba;PR;4600.00;;2023-10-20;20/10/2023;isabela.rodrigues@exemplo.com
+47;Sara Souza;Rio de Janeiro;RJ;3484.00;63;2023-08-08;2023-08-08;sara.souza@exemplo.com
+48;Otávio Costa;São Paulo;SP;8497.00;55;2024-12-13;2024-12-13;
+49;Marina Rodrigues;Campinas;SP;4498.00;44;2024-07-05;;teste@teste.com
+50;Henrique Rodrigues;Niterói;RJ;8694.00;;2023-12-11;;teste@teste.com
+51;Felipe Rodrigues;Rio de Janeiro;RJ;7755.00;;2024-03-14;14/03/2024;
+52;Isabela Costa;Belo Horizonte;MG;12369.00;42;2023-10-12;20231012;isabela.costa@exemplo.com
+53;Ana Silva;Belo Horizonte;MG;1782.00;33;2023-07-24;2023-07-24;teste@teste.com
+54;Paula Souza;Salvador;BA;12224.00;28;2024-09-12;;
+55;Felipe Santos;Santos;SP;1838.00;42;2024-02-11;;felipe.santos@exemplo.com
+56;Henrique Souza;Londrina;PR;1784.00;45;2024-11-08;08/11/24;henrique.souza@exemplo.com
+57;Ana Costa;Porto Alegre;RS;8441.00;47;2024-12-25;25/12/2024;ana.costa@exemplo.com
+58;Isabela Rodrigues;Caxias do Sul;RS;4360.00;23;2023-10-13;20231013;isabela.rodrigues@exemplo.com
+59;Vitória Costa;Belo Horizonte;mg;12365.00;31;2023-12-30;30/12/23;vitória.costa@exemplo.com
+60;Isabela Silva;Salvador;BA;2194.00;49;2024-07-22;22/07/2024;teste@teste.com
+61;Paula Rodrigues;São Paulo;SP;4153.00;33;2023-11-10;;paula.rodrigues@exemplo.com
+62;Rafael Pereira;Caxias do Sul;RS;6629.00;34;2023-08-25;2023-08-25;teste@teste.com
+63;Sara Lima;Rio de Janeiro;RJ;12266.00;66;2024-06-21;;sara.lima@exemplo.com
+64;Gabriela Santos;Niterói;rj;2819.00;;2024-06-30;30/06/2024;gabriela.santos@exemplo.com
+65;Sara Santos;Curitiba;PR;11910.00;54;2023-10-19;20231019;sara.santos@exemplo.com
+66;Bruno Santos;Porto Alegre;RS;2520.00;54;2024-10-06;;bruno.santos@exemplo.com
+67;Tiago Santos;São Paulo;SP;2552.00;68;2024-09-25;25/09/2024;teste@teste.com
+68;Otávio Santos;Feira de Santana;BA;3823.00;65;2023-04-12;12/04/2023;teste@teste.com
+69;Carla Lima;Rio de Janeiro;RJ;2020.00;;2024-04-06;;carla.lima@exemplo.com
+70;Henrique Santos;Londrina;pr;11845.00;34;2024-10-02;;teste@teste.com
+71;Natália Souza;Salvador;BA;2744.00;22;2023-03-03;03/03/2023;teste@teste.com
+72;Tiago Santos;Porto Alegre;RS;12322.00;35;2024-05-27;;tiago.santos@exemplo.com
+73;Bruno Costa;Londrina;PR;3752.00;;2024-11-21;;bruno.costa@exemplo.com
+74;Isabela Silva;Niterói;rj;12269.00;55;2024-03-22;;
+75;Paula Pereira;Caxias do Sul;RS;5914.00;39;2024-02-26;;paula.pereira@exemplo.com
+76;Marina Silva;Porto Alegre;RS;6216.00;67;2024-02-18;;
+77;Sara Rodrigues;Porto Alegre;RS;3761.00;66;2024-05-25;;sara.rodrigues@exemplo.com
+78;Isabela Lima;Contagem;MG;11948.00;;2024-10-07;;teste@teste.com
+79;João Silva;Feira de Santana;BA;2160.00;25;2024-04-17;2024-04-17;teste@teste.com
+80;João Santos;Caxias do Sul;RS;12199.00;27;2024-01-28;28/01/2024;
+81;Eduarda Souza;Contagem;MG;6739.00;18;2023-10-17;;eduarda.souza@exemplo.com
+82;Paula Lima;Caxias do Sul;rs;6380.00;52;2024-01-22;20240122;
+83;Henrique Costa;Niterói;RJ;1851.00;63;2024-01-26;20240126;
+84;Eduarda Rodrigues;São Paulo;SP;5905.00;46;2023-04-13;;
+85;Eduarda Costa;Curitiba;PR;2661.00;34;2023-12-13;;teste@teste.com
+86;Karen Costa;Contagem;MG;1340.00;61;2023-10-22;22/10/2023;teste@teste.com
+87;Diego Souza;Porto Alegre;RS;3759.00;;2023-02-27;27/02/23;diego.souza@exemplo.com
+88;Henrique Costa;Salvador;BA;2558.00;;2024-01-27;;teste@teste.com
+89;Tiago Lima;Niterói;RJ;4641.00;18;2024-04-21;21/04/24;teste@teste.com
+90;Otávio Pereira;Feira de Santana;BA;8212.00;37;2023-07-23;20230723;
+91;Marina Pereira;Feira de Santana;ba;3744.00;60;2024-02-10;10/02/24;marina.pereira@exemplo.com
+92;Bruno Rodrigues;Belo Horizonte;MG;6148.00;57;2023-09-14;;teste@teste.com
+93;Eduarda Souza;Curitiba;pr;4602.00;;2024-01-09;;eduarda.souza@exemplo.com
+94;Karen Costa;Rio de Janeiro;rj;2949.00;35;2023-06-18;18/06/23;
+95;João Pereira;Campinas;SP;1988.00;32;2024-11-23;;teste@teste.com
+96;Sara Pereira;Campinas;SP;1741.00;47;2024-01-13;;teste@teste.com
+97;Marina Pereira;Santos;SP;3665.00;;2024-07-28;28/07/24;
+98;Carla Rodrigues;Londrina;PR;7938.00;20;2023-11-08;20231108;carla.rodrigues@exemplo.com
+99;Sara Lima;Caxias do Sul;rs;6558.00;64;2023-06-08;20230608;teste@teste.com
+100;Vitória Costa;Belo Horizonte;MG;6144.00;33;2024-01-07;2024-01-07;
+101;Leonardo Silva;Caxias do Sul;RS;2950.00;70;2024-04-10;2024-04-10;teste@teste.com
+102;Vitória Silva;Campinas;SP;2957.00;31;2023-03-12;;vitória.silva@exemplo.com
+103;Henrique Pereira;Rio de Janeiro;rj;3996.00;52;2023-09-14;14/09/2023;henrique.pereira@exemplo.com
+104;Eduarda Silva;Belo Horizonte;MG;5732.00;21;2023-05-10;;eduarda.silva@exemplo.com
+105;Carla Rodrigues;Caxias do Sul;rs;2625.00;57;2023-02-14;;teste@teste.com
+106;Rafael Santos;Porto Alegre;rs;2180.00;45;2024-12-03;2024-12-03;rafael.santos@exemplo.com
+107;Carla Souza;Belo Horizonte;MG;1958.00;58;2024-08-22;;teste@teste.com
+108;Vitória Santos;Caxias do Sul;RS;1934.00;59;2024-07-18;;
+109;Henrique Costa;Contagem;MG;8551.00;38;2024-03-13;13/03/24;teste@teste.com
+110;Eduarda Rodrigues;São Paulo;SP;1890.00;65;2025-01-26;26/01/25;
+111;Tiago Pereira;Curitiba;PR;8424.00;66;2024-03-09;;tiago.pereira@exemplo.com
+112;João Pereira;Santos;SP;3016.00;32;2023-04-21;21/04/23;
+113;Isabela Oliveira;Porto Alegre;RS;3759.00;62;2023-11-13;13/11/23;isabela.oliveira@exemplo.com
+114;Eduarda Costa;São Paulo;SP;1387.00;31;2024-01-21;20240121;eduarda.costa@exemplo.com
+115;João Pereira;Salvador;BA;1518.00;57;2023-02-20;;joão.pereira@exemplo.com
+116;Natália Rodrigues;Feira de Santana;BA;8259.00;50;2023-04-27;27/04/23;natália.rodrigues@exemplo.com
+117;Tiago Rodrigues;Feira de Santana;ba;1651.00;56;2023-02-26;2023-02-26;tiago.rodrigues@exemplo.com
+118;Eduarda Santos;Contagem;MG;1715.00;45;2023-06-29;29/06/2023;eduarda.santos@exemplo.com
+119;Rafael Pereira;Campinas;SP;2093.00;;2023-03-21;21/03/23;rafael.pereira@exemplo.com
+120;Natália Santos;Campinas;SP;1865.00;57;2024-04-16;;
+121;Diego Oliveira;Caxias do Sul;RS;2510.00;65;2023-12-14;14/12/2023;diego.oliveira@exemplo.com
+122;Rafael Souza;Salvador;BA;6419.00;70;2024-10-22;22/10/2024;rafael.souza@exemplo.com
+123;Gabriela Lima;Salvador;BA;2062.00;58;2024-05-20;20240520;teste@teste.com
+124;Otávio Pereira;Londrina;PR;3100.00;;2024-03-28;;otávio.pereira@exemplo.com
+125;Bruno Pereira;Salvador;ba;4645.00;21;2024-01-13;13/01/24;bruno.pereira@exemplo.com
+126;Carla Costa;Porto Alegre;RS;12085.00;48;2024-05-28;28/05/2024;
+127;Karen Souza;Salvador;BA;1707.00;46;2024-06-20;;teste@teste.com
+128;João Costa;Caxias do Sul;RS;1885.00;;2023-04-07;;teste@teste.com
+129;Vitória Lima;Belo Horizonte;MG;2916.00;59;2024-12-16;;vitória.lima@exemplo.com
+130;Carla Santos;Feira de Santana;BA;5961.00;65;2024-12-02;;carla.santos@exemplo.com
+131;Rafael Pereira;Campinas;SP;4069.00;39;2024-05-12;12/05/2024;rafael.pereira@exemplo.com
+132;Carla Santos;Santos;SP;1889.00;57;2023-05-15;;carla.santos@exemplo.com
+133;Vitória Lima;Londrina;PR;2041.00;64;2023-09-01;20230901;teste@teste.com
+134;Otávio Oliveira;Salvador;ba;4660.00;30;2024-01-12;;
+135;Otávio Santos;Caxias do Sul;rs;2608.00;26;2023-09-14;2023-09-14;teste@teste.com
+136;Sara Souza;Curitiba;PR;3871.00;35;2024-04-05;;sara.souza@exemplo.com
+137;Henrique Rodrigues;Belo Horizonte;MG;7809.00;41;2023-08-30;20230830;
+138;Ana Pereira;Santos;SP;5999.00;36;2024-04-28;;
+139;Paula Rodrigues;Salvador;BA;1738.00;27;2024-07-15;;teste@teste.com
+140;João Oliveira;Belo Horizonte;mg;1688.00;68;2024-09-29;20240929;joão.oliveira@exemplo.com
+141;Paula Silva;Curitiba;PR;2796.00;57;2023-12-28;28/12/2023;paula.silva@exemplo.com
+142;Carla Pereira;Santos;SP;1999.00;20;2024-10-12;20241012;
+143;Ana Pereira;Campinas;SP;2912.00;65;2023-12-07;07/12/2023;ana.pereira@exemplo.com
+144;Felipe Rodrigues;Londrina;PR;2476.00;;2024-04-13;2024-04-13;felipe.rodrigues@exemplo.com
+145;Gabriela Silva;Contagem;mg;8669.00;66;2024-10-24;24/10/2024;gabriela.silva@exemplo.com
+146;Bruno Pereira;Belo Horizonte;MG;6594.00;65;2024-03-26;20240326;bruno.pereira@exemplo.com
+147;Paula Pereira;Feira de Santana;BA;2569.00;;2024-09-08;08/09/2024;paula.pereira@exemplo.com
+148;Carla Pereira;Londrina;PR;4613.00;45;2023-06-20;;carla.pereira@exemplo.com
+149;Leonardo Costa;Belo Horizonte;MG;2531.00;69;2024-11-26;26/11/2024;
+150;Vitória Rodrigues;São Paulo;SP;2183.00;41;2024-01-06;20240106;
+151;Eduarda Rodrigues;Contagem;MG;11857.00;51;2024-01-11;20240111;eduarda.rodrigues@exemplo.com
+152;Diego Silva;Curitiba;PR;12760.00;53;2023-05-01;01/05/23;teste@teste.com
+153;Gabriela Santos;Londrina;PR;2951.00;22;2024-04-07;07/04/2024;
+154;Carla Pereira;Londrina;PR;2294.00;28;2024-12-29;;
+155;Leonardo Oliveira;São Paulo;SP;2684.00;19;2024-01-05;;leonardo.oliveira@exemplo.com
+156;Sara Lima;Salvador;BA;2333.00;63;2025-01-06;20250106;sara.lima@exemplo.com
+157;Tiago Souza;Niterói;RJ;2621.00;51;2023-12-19;19/12/2023;
+158;Tiago Lima;Niterói;RJ;1454.00;37;2023-06-18;18/06/2023;tiago.lima@exemplo.com
+159;Leonardo Santos;Campinas;SP;3262.00;37;2024-09-21;;leonardo.santos@exemplo.com
+160;Tiago Lima;Niterói;RJ;1258.00;;2024-10-18;;tiago.lima@exemplo.com
+161;Tiago Costa;Salvador;BA;12293.00;37;2024-05-09;09/05/2024;
+162;João Rodrigues;Santos;SP;1523.00;48;2024-04-20;20/04/2024;joão.rodrigues@exemplo.com
+163;Karen Pereira;Porto Alegre;RS;6754.00;38;2023-09-05;20230905;karen.pereira@exemplo.com
+164;Eduarda Souza;Campinas;SP;8556.00;28;2023-12-02;;teste@teste.com
+165;Felipe Rodrigues;Feira de Santana;BA;12331.00;23;2024-02-07;;felipe.rodrigues@exemplo.com
+166;Tiago Pereira;São Paulo;SP;4713.00;59;2024-11-19;20241119;tiago.pereira@exemplo.com
+167;Diego Costa;Niterói;RJ;6525.00;43;2023-02-22;;diego.costa@exemplo.com
+168;João Souza;Caxias do Sul;RS;3943.00;24;2024-02-08;08/02/24;teste@teste.com
+169;Leonardo Lima;Niterói;RJ;1292.00;;2024-12-31;31/12/24;
+170;Eduarda Lima;Contagem;mg;3004.00;65;2023-11-03;;eduarda.lima@exemplo.com
+171;Sara Rodrigues;Londrina;PR;11734.00;61;2023-04-23;20230423;sara.rodrigues@exemplo.com
+172;Ana Rodrigues;Belo Horizonte;MG;2183.00;58;2025-01-08;;teste@teste.com
+173;Henrique Silva;Salvador;BA;2738.00;44;2023-06-05;20230605;teste@teste.com
+174;Vitória Rodrigues;Curitiba;PR;3262.00;38;2024-11-09;20241109;vitória.rodrigues@exemplo.com
+175;Felipe Rodrigues;Feira de Santana;BA;6241.00;30;2023-09-10;10/09/23;felipe.rodrigues@exemplo.com
+176;João Santos;Curitiba;PR;12349.00;53;2025-01-08;08/01/25;joão.santos@exemplo.com
+177;Sara Costa;Caxias do Sul;RS;2794.00;;2025-01-01;2025-01-01;sara.costa@exemplo.com
+178;Isabela Rodrigues;Rio de Janeiro;RJ;4256.00;57;2025-01-28;;isabela.rodrigues@exemplo.com
+179;Rafael Oliveira;Curitiba;PR;1405.00;63;2024-04-28;2024-04-28;teste@teste.com
+180;Sara Lima;Caxias do Sul;rs;12108.00;36;2023-11-25;25/11/23;teste@teste.com
+181;Carla Oliveira;Salvador;BA;3055.00;29;2023-02-07;20230207;teste@teste.com
+182;João Silva;Campinas;sp;2386.00;59;2024-07-10;;joão.silva@exemplo.com
+183;Rafael Rodrigues;Belo Horizonte;MG;2377.00;47;2024-10-25;25/10/24;teste@teste.com
+184;Karen Santos;Salvador;BA;3030.00;50;2023-12-02;2023-12-02;karen.santos@exemplo.com
+185;Eduarda Rodrigues;Belo Horizonte;MG;1734.00;46;2023-10-01;01/10/23;eduarda.rodrigues@exemplo.com
+186;Ana Santos;Londrina;PR;2827.00;47;2023-11-11;11/11/2023;ana.santos@exemplo.com
+187;João Souza;Londrina;pr;6152.00;26;2024-05-04;04/05/2024;joão.souza@exemplo.com
+188;Leonardo Costa;Londrina;PR;3206.00;56;2023-03-25;;leonardo.costa@exemplo.com
+189;Carla Souza;Santos;SP;3799.00;38;2024-06-16;20240616;carla.souza@exemplo.com
+190;Tiago Rodrigues;Santos;SP;11813.00;50;2024-03-01;20240301;tiago.rodrigues@exemplo.com
+191;João Silva;Caxias do Sul;RS;1646.00;20;2024-03-09;09/03/24;teste@teste.com
+192;Bruno Souza;Porto Alegre;RS;4537.00;26;2024-10-18;;teste@teste.com
+193;Marina Rodrigues;Caxias do Sul;RS;1972.00;40;2023-05-02;02/05/2023;
+194;Eduarda Oliveira;São Paulo;SP;4648.00;52;2024-03-10;;eduarda.oliveira@exemplo.com
+195;Otávio Pereira;Niterói;rj;2931.00;;2024-11-07;20241107;teste@teste.com
+196;Ana Oliveira;Rio de Janeiro;RJ;1768.00;61;2024-12-21;2024-12-21;ana.oliveira@exemplo.com
+197;Otávio Oliveira;Salvador;BA;1486.00;36;2023-08-28;;otávio.oliveira@exemplo.com
+198;Karen Oliveira;Belo Horizonte;mg;3546.00;21;2024-07-24;;
+199;Natália Rodrigues;Campinas;SP;8774.00;44;2024-02-23;23/02/2024;natália.rodrigues@exemplo.com
+200;Sara Rodrigues;Rio de Janeiro;RJ;3995.00;21;2024-07-29;20240729;
+201;Eduarda Costa;Niterói;rj;3376.00;46;2024-01-15;2024-01-15;eduarda.costa@exemplo.com
+202;Bruno Santos;Porto Alegre;RS;2085.00;55;2025-01-11;;bruno.santos@exemplo.com
+203;Karen Santos;São Paulo;SP;2940.00;66;2024-05-05;05/05/2024;teste@teste.com
+204;Marina Oliveira;Feira de Santana;BA;4479.00;59;2024-01-03;03/01/24;marina.oliveira@exemplo.com
+205;Paula Rodrigues;Santos;sp;12355.00;41;2023-11-17;20231117;paula.rodrigues@exemplo.com
+206;Eduarda Silva;Contagem;MG;4012.00;32;2024-01-24;;
+207;Karen Santos;Caxias do Sul;RS;12044.00;40;2023-06-23;23/06/2023;teste@teste.com
+208;Sara Silva;Salvador;BA;1799.00;44;2023-05-21;;sara.silva@exemplo.com
+209;Ana Oliveira;Feira de Santana;BA;5823.00;60;2024-09-23;20240923;teste@teste.com
+210;Sara Costa;São Paulo;sp;4797.00;19;2024-05-29;;teste@teste.com
+211;Felipe Souza;Santos;SP;2693.00;51;2023-09-16;16/09/23;felipe.souza@exemplo.com
+212;Leonardo Costa;Porto Alegre;RS;3314.00;23;2024-10-31;;teste@teste.com
+213;Marina Costa;Feira de Santana;BA;1219.00;23;2024-05-26;20240526;teste@teste.com
+214;Diego Silva;Rio de Janeiro;rj;12255.00;;2023-03-18;;
+215;Tiago Silva;Niterói;RJ;1624.00;66;2024-12-30;20241230;
+216;Tiago Oliveira;Feira de Santana;BA;6486.00;26;2024-12-06;;tiago.oliveira@exemplo.com
+217;Leonardo Silva;Campinas;SP;2855.00;67;2024-09-20;;leonardo.silva@exemplo.com
+218;Ana Santos;Caxias do Sul;RS;3428.00;42;2024-03-18;18/03/2024;teste@teste.com
+219;Carla Santos;Rio de Janeiro;RJ;2248.00;63;2024-10-11;11/10/2024;teste@teste.com
+220;Diego Souza;Campinas;SP;12437.00;24;2023-05-16;2023-05-16;diego.souza@exemplo.com
+221;Sara Costa;São Paulo;SP;2424.00;56;2024-09-04;04/09/24;
+222;Natália Costa;Santos;SP;3767.00;42;2023-06-23;23/06/2023;natália.costa@exemplo.com
+223;Eduarda Souza;Niterói;RJ;4562.00;68;2023-03-20;20/03/23;eduarda.souza@exemplo.com
+224;Paula Oliveira;Porto Alegre;RS;2823.00;;2024-02-10;10/02/24;
+225;Karen Rodrigues;Contagem;mg;2815.00;62;2023-07-25;20230725;karen.rodrigues@exemplo.com
+226;Karen Santos;Londrina;PR;3367.00;70;2024-02-07;07/02/24;karen.santos@exemplo.com
+227;Tiago Lima;Curitiba;PR;12129.00;36;2024-12-10;2024-12-10;
+228;Natália Rodrigues;Niterói;rj;3217.00;63;2024-03-09;20240309;natália.rodrigues@exemplo.com
+229;Paula Costa;Feira de Santana;BA;1936.00;69;2024-07-03;;teste@teste.com
+230;Henrique Pereira;Rio de Janeiro;RJ;8379.00;45;2023-04-19;2023-04-19;henrique.pereira@exemplo.com
+231;Rafael Oliveira;Caxias do Sul;rs;8648.00;55;2024-12-08;;rafael.oliveira@exemplo.com
+232;Paula Souza;Contagem;MG;1937.00;64;2023-05-26;26/05/23;paula.souza@exemplo.com
+233;Gabriela Rodrigues;Contagem;mg;2597.00;46;2023-11-23;2023-11-23;gabriela.rodrigues@exemplo.com
+234;Diego Silva;Belo Horizonte;mg;2699.00;53;2023-06-13;13/06/23;diego.silva@exemplo.com
+235;Henrique Costa;Curitiba;PR;3085.00;65;2024-09-20;20/09/2024;henrique.costa@exemplo.com
+236;Ana Oliveira;Niterói;RJ;1908.00;52;2023-07-11;11/07/23;ana.oliveira@exemplo.com
+237;Isabela Rodrigues;Feira de Santana;ba;8503.00;40;2023-12-27;20231227;teste@teste.com
+238;João Souza;Curitiba;PR;5941.00;25;2023-07-07;07/07/23;teste@teste.com
+239;Natália Lima;Feira de Santana;BA;8080.00;52;2024-12-11;;
+240;Felipe Rodrigues;Belo Horizonte;MG;2844.00;57;2023-02-24;24/02/23;
+241;Gabriela Costa;Feira de Santana;BA;8707.00;46;2024-05-15;15/05/2024;gabriela.costa@exemplo.com
+242;Henrique Santos;Campinas;SP;3291.00;47;2024-08-02;;teste@teste.com
+243;Rafael Souza;Salvador;BA;4451.00;66;2023-02-12;;rafael.souza@exemplo.com
+244;Natália Souza;Curitiba;PR;3766.00;40;2023-03-31;20230331;
+245;Henrique Oliveira;Londrina;PR;8039.00;68;2023-07-31;31/07/2023;
+246;Sara Santos;Salvador;BA;6299.00;35;2024-06-10;;
+247;Natália Silva;Belo Horizonte;MG;2711.00;38;2023-09-11;;natália.silva@exemplo.com
+248;Isabela Costa;Caxias do Sul;RS;1890.00;65;2023-10-12;;
+249;Paula Pereira;Salvador;BA;2638.00;62;2024-01-02;2024-01-02;teste@teste.com
+250;Natália Oliveira;Caxias do Sul;RS;6280.00;54;2023-05-14;;
+251;Bruno Silva;Santos;sp;11733.00;28;2024-03-27;20240327;bruno.silva@exemplo.com
+252;Gabriela Lima;Londrina;PR;2761.00;;2024-01-05;05/01/24;gabriela.lima@exemplo.com
+253;Felipe Silva;Caxias do Sul;RS;3579.00;63;2023-04-08;2023-04-08;felipe.silva@exemplo.com
+254;Tiago Oliveira;Feira de Santana;BA;1216.00;70;2023-05-04;20230504;teste@teste.com
+255;Henrique Costa;Santos;SP;1911.00;37;2023-05-21;20230521;teste@teste.com
+256;Eduarda Lima;Santos;sp;1536.00;64;2023-08-07;;teste@teste.com
+257;Vitória Rodrigues;Rio de Janeiro;RJ;1986.00;55;2025-01-17;20250117;vitória.rodrigues@exemplo.com
+258;Eduarda Oliveira;Belo Horizonte;MG;3283.00;62;2023-01-28;;
+259;Vitória Oliveira;Londrina;PR;3811.00;68;2023-09-03;20230903;vitória.oliveira@exemplo.com
+260;Vitória Souza;Salvador;BA;6348.00;54;2024-03-06;06/03/24;vitória.souza@exemplo.com
+261;Paula Souza;Santos;SP;1728.00;20;2023-03-03;20230303;paula.souza@exemplo.com
+262;Rafael Costa;Caxias do Sul;RS;2798.00;27;2023-10-12;2023-10-12;rafael.costa@exemplo.com
+263;Gabriela Lima;Feira de Santana;BA;7835.00;45;2025-01-17;17/01/2025;gabriela.lima@exemplo.com
+264;Natália Souza;Porto Alegre;RS;4059.00;63;2023-05-21;;natália.souza@exemplo.com
+265;Leonardo Santos;Niterói;RJ;2750.00;25;2023-01-31;31/01/23;
+266;Carla Santos;Curitiba;PR;12632.00;21;2024-05-26;;carla.santos@exemplo.com
+267;Diego Souza;Rio de Janeiro;RJ;1225.00;48;2024-01-08;20240108;
+268;Bruno Costa;Niterói;RJ;3552.00;38;2023-10-05;2023-10-05;bruno.costa@exemplo.com
+269;Bruno Lima;Rio de Janeiro;RJ;7841.00;36;2023-11-15;15/11/23;bruno.lima@exemplo.com
+270;Leonardo Oliveira;Contagem;MG;3650.00;49;2023-07-20;;
+271;Henrique Lima;Campinas;SP;1677.00;58;2024-12-11;2024-12-11;
+272;Marina Santos;São Paulo;SP;3559.00;21;2023-05-26;;marina.santos@exemplo.com
+273;Henrique Costa;Londrina;PR;11873.00;50;2023-05-17;;
+274;Tiago Silva;Porto Alegre;RS;3297.00;38;2024-02-07;;
+275;Otávio Santos;Rio de Janeiro;RJ;2978.00;55;2023-04-22;22/04/2023;otávio.santos@exemplo.com
+276;Karen Costa;Santos;sp;6125.00;47;2023-09-29;2023-09-29;karen.costa@exemplo.com
+277;João Silva;Niterói;RJ;2386.00;40;2024-02-10;;joão.silva@exemplo.com
+278;Felipe Silva;Caxias do Sul;rs;2893.00;69;2023-05-24;2023-05-24;felipe.silva@exemplo.com
+279;Henrique Lima;Niterói;RJ;5872.00;34;2023-03-18;2023-03-18;
+280;Otávio Lima;Campinas;SP;1787.00;21;2023-06-22;;otávio.lima@exemplo.com
+281;Paula Silva;Caxias do Sul;RS;2924.00;29;2023-10-09;09/10/23;paula.silva@exemplo.com
+282;Vitória Oliveira;Londrina;PR;12543.00;48;2023-03-04;2023-03-04;vitória.oliveira@exemplo.com
+283;Gabriela Oliveira;Curitiba;PR;8435.00;68;2024-05-11;11/05/24;
+284;Marina Santos;Rio de Janeiro;RJ;6148.00;;2023-10-15;2023-10-15;
+285;Leonardo Oliveira;Rio de Janeiro;rj;3193.00;70;2025-01-24;2025-01-24;teste@teste.com
+286;Tiago Costa;Belo Horizonte;MG;2684.00;69;2025-01-25;;tiago.costa@exemplo.com
+287;Leonardo Lima;Salvador;BA;12332.00;20;2023-04-03;2023-04-03;leonardo.lima@exemplo.com
+288;Rafael Rodrigues;Campinas;SP;2967.00;29;2023-11-28;2023-11-28;rafael.rodrigues@exemplo.com
+289;Eduarda Souza;Feira de Santana;BA;2465.00;60;2024-02-10;;eduarda.souza@exemplo.com
+290;Eduarda Lima;Londrina;PR;12349.00;53;2024-12-11;;teste@teste.com
+291;Tiago Lima;Caxias do Sul;rs;3960.00;18;2024-12-19;;tiago.lima@exemplo.com
+292;Tiago Silva;Niterói;RJ;2913.00;27;2023-12-06;;tiago.silva@exemplo.com
+293;Karen Lima;Curitiba;PR;6614.00;;2023-08-03;03/08/2023;teste@teste.com
+294;Diego Silva;Campinas;SP;12559.00;44;2024-05-19;20240519;diego.silva@exemplo.com
+295;Paula Oliveira;Niterói;RJ;1768.00;38;2023-09-25;2023-09-25;paula.oliveira@exemplo.com
+296;Marina Lima;Curitiba;pr;2392.00;57;2024-05-09;;marina.lima@exemplo.com
+297;Felipe Costa;Rio de Janeiro;rj;2378.00;30;2024-02-24;;felipe.costa@exemplo.com
+298;Sara Santos;Londrina;PR;4186.00;;2024-02-07;;sara.santos@exemplo.com
+299;Bruno Pereira;Campinas;SP;2303.00;58;2024-09-06;20240906;bruno.pereira@exemplo.com
+300;Felipe Santos;Campinas;SP;2331.00;48;2024-05-15;;felipe.santos@exemplo.com
+301;Marina Lima;Contagem;mg;6082.00;34;2024-03-26;20240326;marina.lima@exemplo.com
+302;Tiago Silva;Rio de Janeiro;rj;2404.00;44;2024-08-26;26/08/2024;tiago.silva@exemplo.com
+303;Rafael Costa;Feira de Santana;ba;3675.00;43;2025-01-01;2025-01-01;rafael.costa@exemplo.com
+304;Tiago Lima;Campinas;SP;2542.00;69;2023-07-17;17/07/2023;tiago.lima@exemplo.com
+305;Natália Oliveira;Curitiba;PR;4354.00;69;2023-03-10;2023-03-10;natália.oliveira@exemplo.com
+306;Karen Santos;Feira de Santana;BA;2270.00;25;2024-02-29;29/02/2024;karen.santos@exemplo.com
+307;Diego Souza;Salvador;BA;4796.00;44;2023-09-28;20230928;teste@teste.com
+308;Paula Silva;Niterói;rj;7994.00;61;2024-12-11;20241211;paula.silva@exemplo.com
+309;Karen Oliveira;Santos;sp;12250.00;19;2023-12-12;12/12/23;karen.oliveira@exemplo.com
+310;Diego Oliveira;Niterói;RJ;12357.00;44;2024-09-11;;diego.oliveira@exemplo.com
+311;Natália Rodrigues;Feira de Santana;BA;2255.00;22;2023-11-15;;natália.rodrigues@exemplo.com
+312;Rafael Silva;Rio de Janeiro;RJ;2818.00;47;2023-02-21;21/02/23;teste@teste.com
+313;Otávio Costa;Curitiba;PR;1695.00;56;2024-04-01;01/04/2024;
+314;Sara Pereira;Belo Horizonte;MG;3885.00;42;2023-02-20;20/02/2023;
+315;Gabriela Oliveira;Curitiba;pr;3251.00;50;2023-01-21;;gabriela.oliveira@exemplo.com
+316;Felipe Silva;Niterói;RJ;4263.00;42;2023-12-24;20231224;felipe.silva@exemplo.com
+317;Rafael Costa;Salvador;BA;2247.00;41;2024-07-28;;rafael.costa@exemplo.com
+318;Diego Rodrigues;Campinas;SP;4365.00;34;2024-11-02;;
+319;Gabriela Lima;Salvador;BA;2027.00;61;2023-05-24;;gabriela.lima@exemplo.com
+320;João Santos;Caxias do Sul;RS;7772.00;54;2023-07-14;14/07/23;teste@teste.com
+321;Sara Rodrigues;Londrina;PR;4048.00;53;2023-07-05;05/07/23;sara.rodrigues@exemplo.com
+322;Isabela Lima;Londrina;PR;2155.00;65;2023-11-11;20231111;teste@teste.com
+323;Isabela Santos;Porto Alegre;rs;11809.00;55;2024-08-17;;isabela.santos@exemplo.com
+324;Rafael Souza;Londrina;PR;4546.00;;2023-06-04;04/06/2023;
+325;Tiago Rodrigues;Niterói;RJ;2365.00;58;2023-07-01;01/07/23;teste@teste.com
+326;Isabela Oliveira;Rio de Janeiro;rj;11880.00;45;2024-10-10;20241010;isabela.oliveira@exemplo.com
+327;Marina Silva;Santos;SP;3464.00;38;2024-06-27;27/06/2024;marina.silva@exemplo.com
+328;Henrique Oliveira;Londrina;pr;3964.00;50;2024-08-25;25/08/24;henrique.oliveira@exemplo.com
+329;João Santos;Caxias do Sul;rs;7974.00;49;2024-01-03;03/01/2024;joão.santos@exemplo.com
+330;Marina Silva;Rio de Janeiro;RJ;2632.00;55;2024-05-31;31/05/2024;marina.silva@exemplo.com
+331;Bruno Costa;Londrina;PR;1298.00;59;2023-01-21;2023-01-21;teste@teste.com
+332;Marina Souza;Feira de Santana;BA;12013.00;61;2024-10-07;2024-10-07;marina.souza@exemplo.com
+333;Rafael Santos;Salvador;BA;7914.00;57;2023-05-01;01/05/23;rafael.santos@exemplo.com
+334;Gabriela Oliveira;Belo Horizonte;MG;6539.00;20;2024-07-15;20240715;
+335;Paula Pereira;Rio de Janeiro;RJ;1382.00;54;2024-11-16;20241116;paula.pereira@exemplo.com
+336;Rafael Souza;Curitiba;pr;4173.00;36;2023-09-28;20230928;rafael.souza@exemplo.com
+337;Bruno Santos;Contagem;MG;7937.00;;2023-02-16;2023-02-16;
+338;Felipe Pereira;Contagem;mg;3890.00;39;2023-07-07;2023-07-07;felipe.pereira@exemplo.com
+339;Isabela Costa;Londrina;pr;8041.00;62;2025-01-13;2025-01-13;
+340;Diego Costa;Feira de Santana;BA;12071.00;67;2024-01-03;;diego.costa@exemplo.com
+341;Eduarda Rodrigues;Porto Alegre;RS;8602.00;;2023-09-25;;eduarda.rodrigues@exemplo.com
+342;Rafael Oliveira;Londrina;PR;2586.00;33;2024-05-08;08/05/24;teste@teste.com
+343;Eduarda Silva;Santos;SP;3235.00;49;2023-06-19;2023-06-19;teste@teste.com
+344;Karen Santos;Santos;SP;3475.00;33;2023-03-22;20230322;karen.santos@exemplo.com
+345;Carla Rodrigues;Caxias do Sul;RS;2718.00;19;2023-04-16;20230416;carla.rodrigues@exemplo.com
+346;Ana Souza;Feira de Santana;BA;3634.00;41;2023-02-25;25/02/2023;
+347;Vitória Rodrigues;Londrina;PR;11933.00;;2024-11-05;05/11/2024;vitória.rodrigues@exemplo.com
+348;João Pereira;Curitiba;PR;1536.00;70;2025-01-04;;teste@teste.com
+349;Vitória Oliveira;Rio de Janeiro;RJ;8141.00;68;2023-07-15;;vitória.oliveira@exemplo.com
+350;Bruno Souza;Caxias do Sul;RS;3221.00;;2025-01-23;2025-01-23;bruno.souza@exemplo.com
+351;Tiago Rodrigues;Salvador;BA;2462.00;60;2024-09-06;;
+352;Marina Costa;Salvador;BA;4514.00;36;2024-04-08;08/04/2024;marina.costa@exemplo.com
+353;Rafael Santos;Londrina;PR;3111.00;63;2023-10-25;;rafael.santos@exemplo.com
+354;Felipe Pereira;Curitiba;pr;6683.00;60;2024-12-28;20241228;teste@teste.com
+355;Sara Santos;Porto Alegre;RS;1751.00;21;2024-11-17;2024-11-17;sara.santos@exemplo.com
+356;Felipe Santos;Londrina;pr;2327.00;36;2023-07-28;;felipe.santos@exemplo.com
+357;Diego Oliveira;Londrina;PR;3746.00;69;2024-12-13;13/12/24;teste@teste.com
+358;Marina Costa;Caxias do Sul;rs;1226.00;30;2024-09-27;20240927;
+359;Leonardo Oliveira;Curitiba;PR;4619.00;61;2023-03-18;18/03/2023;
+360;Diego Costa;Campinas;SP;4241.00;55;2023-09-19;2023-09-19;diego.costa@exemplo.com
+361;Eduarda Silva;Niterói;RJ;1816.00;54;2024-07-17;17/07/24;eduarda.silva@exemplo.com
+362;Rafael Oliveira;Rio de Janeiro;RJ;3051.00;43;2023-04-05;05/04/23;rafael.oliveira@exemplo.com
+363;Karen Pereira;Contagem;MG;3786.00;53;2024-10-26;2024-10-26;karen.pereira@exemplo.com
+364;Henrique Oliveira;Santos;SP;6481.00;25;2024-01-31;31/01/24;henrique.oliveira@exemplo.com
+365;Rafael Pereira;Feira de Santana;ba;11789.00;59;2023-07-17;17/07/23;rafael.pereira@exemplo.com
+366;Felipe Silva;Curitiba;PR;3136.00;45;2023-04-17;17/04/2023;felipe.silva@exemplo.com
+367;Natália Souza;Curitiba;PR;2140.00;20;2023-03-31;2023-03-31;natália.souza@exemplo.com
+368;Sara Souza;Salvador;BA;4534.00;58;2024-02-19;20240219;sara.souza@exemplo.com
+369;Diego Silva;Curitiba;PR;1348.00;50;2023-04-19;19/04/23;teste@teste.com
+370;Carla Santos;Caxias do Sul;RS;7763.00;52;2023-08-14;14/08/2023;teste@teste.com
+371;Sara Santos;Curitiba;PR;4464.00;18;2024-07-20;;sara.santos@exemplo.com
+372;Tiago Costa;Salvador;BA;4130.00;64;2023-12-19;19/12/2023;tiago.costa@exemplo.com
+373;Rafael Lima;Rio de Janeiro;rj;3217.00;29;2024-11-18;;
+374;Sara Rodrigues;Curitiba;PR;3837.00;30;2025-01-13;;sara.rodrigues@exemplo.com
+375;Eduarda Oliveira;Campinas;SP;2096.00;46;2023-12-03;;teste@teste.com
+376;Eduarda Pereira;Contagem;MG;2209.00;68;2023-08-15;;teste@teste.com
+377;Leonardo Lima;Londrina;PR;12647.00;67;2023-11-09;20231109;leonardo.lima@exemplo.com
+378;Vitória Souza;Belo Horizonte;MG;3239.00;58;2023-03-20;;vitória.souza@exemplo.com
+379;Rafael Silva;Feira de Santana;BA;2775.00;52;2024-07-06;20240706;teste@teste.com
+380;Marina Oliveira;Feira de Santana;BA;3151.00;23;2024-02-11;11/02/24;marina.oliveira@exemplo.com
+381;Vitória Lima;Salvador;BA;12026.00;54;2024-11-06;06/11/2024;teste@teste.com
+382;Leonardo Silva;Niterói;rj;2828.00;32;2023-02-13;;leonardo.silva@exemplo.com
+383;Leonardo Costa;Caxias do Sul;RS;1281.00;38;2023-04-16;;
+384;Isabela Santos;Salvador;ba;8475.00;59;2023-03-21;;isabela.santos@exemplo.com
+385;Henrique Costa;Contagem;MG;12687.00;18;2024-05-28;28/05/2024;henrique.costa@exemplo.com
+386;Rafael Santos;Rio de Janeiro;rj;2522.00;63;2023-05-02;;rafael.santos@exemplo.com
+387;Diego Rodrigues;Londrina;PR;12131.00;59;2024-02-25;2024-02-25;diego.rodrigues@exemplo.com
+388;Tiago Lima;Rio de Janeiro;RJ;2314.00;29;2024-06-13;20240613;tiago.lima@exemplo.com
+389;Ana Santos;São Paulo;SP;12665.00;28;2023-08-13;20230813;teste@teste.com
+390;Felipe Santos;Niterói;RJ;11840.00;42;2023-05-16;2023-05-16;felipe.santos@exemplo.com
+391;Rafael Costa;Rio de Janeiro;RJ;3174.00;56;2023-02-09;;rafael.costa@exemplo.com
+392;Paula Lima;Salvador;ba;8769.00;20;2024-12-15;;paula.lima@exemplo.com
+393;Paula Costa;Belo Horizonte;mg;7974.00;67;2023-08-27;2023-08-27;paula.costa@exemplo.com
+394;Natália Santos;Rio de Janeiro;rj;2270.00;18;2024-01-20;;natália.santos@exemplo.com
+395;Natália Pereira;São Paulo;SP;8219.00;52;2024-03-09;;natália.pereira@exemplo.com
+396;Marina Oliveira;Caxias do Sul;RS;2958.00;48;2023-09-17;17/09/23;marina.oliveira@exemplo.com
+397;Marina Lima;Curitiba;PR;3614.00;28;2023-04-13;13/04/2023;marina.lima@exemplo.com
+398;Sara Silva;Niterói;RJ;1386.00;48;2024-09-06;20240906;sara.silva@exemplo.com
+399;Leonardo Souza;Salvador;BA;8520.00;51;2023-10-21;;
+400;Felipe Rodrigues;Porto Alegre;RS;3761.00;20;2024-09-05;;felipe.rodrigues@exemplo.com
+401;Felipe Silva;Belo Horizonte;MG;1522.00;;2023-10-10;20231010;felipe.silva@exemplo.com
+402;Tiago Oliveira;Salvador;ba;1884.00;64;2024-07-26;;tiago.oliveira@exemplo.com
+403;Isabela Oliveira;Salvador;BA;12527.00;34;2023-06-29;20230629;isabela.oliveira@exemplo.com
+404;Rafael Santos;Belo Horizonte;MG;4212.00;42;2024-07-30;20240730;teste@teste.com
+405;Otávio Rodrigues;Salvador;BA;11938.00;42;2024-10-10;10/10/2024;teste@teste.com
+406;Karen Costa;Belo Horizonte;MG;4208.00;43;2024-11-20;;
+407;Felipe Rodrigues;Contagem;MG;3251.00;65;2024-11-30;30/11/2024;felipe.rodrigues@exemplo.com
+408;Henrique Santos;Rio de Janeiro;RJ;3211.00;40;2023-06-09;2023-06-09;henrique.santos@exemplo.com
+409;Paula Silva;Salvador;ba;12460.00;49;2024-08-11;11/08/24;paula.silva@exemplo.com
+410;Rafael Santos;Porto Alegre;RS;2310.00;45;2024-05-04;;rafael.santos@exemplo.com
+411;Felipe Rodrigues;Santos;SP;12346.00;18;2024-11-21;21/11/2024;felipe.rodrigues@exemplo.com
+412;Leonardo Santos;Niterói;RJ;3251.00;57;2023-12-18;18/12/23;leonardo.santos@exemplo.com
+413;Natália Pereira;Contagem;MG;4623.00;26;2024-08-12;;natália.pereira@exemplo.com
+414;Isabela Oliveira;Feira de Santana;BA;8101.00;65;2023-06-03;20230603;
+415;Paula Lima;Londrina;PR;12314.00;54;2023-02-18;20230218;paula.lima@exemplo.com
+416;Gabriela Santos;Porto Alegre;RS;12385.00;41;2024-07-27;;
+417;Ana Costa;Campinas;SP;3057.00;36;2023-12-30;30/12/23;teste@teste.com
+418;Otávio Souza;Caxias do Sul;RS;11996.00;58;2023-12-12;20231212;teste@teste.com
+419;Carla Souza;Niterói;RJ;3342.00;36;2024-12-28;28/12/24;teste@teste.com
+420;Otávio Pereira;Londrina;PR;8042.00;19;2023-05-09;;otávio.pereira@exemplo.com
+421;Carla Oliveira;Niterói;RJ;1895.00;;2024-04-29;;carla.oliveira@exemplo.com
+422;Rafael Souza;Campinas;SP;2372.00;42;2023-11-13;13/11/2023;rafael.souza@exemplo.com
+423;Eduarda Lima;Salvador;BA;1271.00;38;2024-05-02;20240502;
+424;Isabela Rodrigues;Rio de Janeiro;RJ;12590.00;58;2024-06-30;30/06/24;
+425;Henrique Souza;Caxias do Sul;RS;6544.00;37;2023-01-11;2023-01-11;henrique.souza@exemplo.com
+426;Eduarda Pereira;Contagem;MG;2207.00;48;2023-11-03;2023-11-03;teste@teste.com
+427;Vitória Oliveira;Santos;SP;6086.00;53;2024-03-23;20240323;vitória.oliveira@exemplo.com
+428;Marina Costa;Niterói;RJ;2564.00;51;2024-09-19;;teste@teste.com
+429;Sara Santos;Porto Alegre;RS;2073.00;25;2024-10-14;20241014;teste@teste.com
+430;Vitória Rodrigues;Niterói;RJ;1511.00;;2024-07-01;2024-07-01;vitória.rodrigues@exemplo.com
+431;Isabela Lima;Londrina;PR;1676.00;;2023-01-16;20230116;isabela.lima@exemplo.com
+432;Paula Pereira;Porto Alegre;RS;5864.00;27;2023-02-27;27/02/23;teste@teste.com
+433;Paula Lima;Niterói;rj;7725.00;67;2025-01-01;01/01/2025;paula.lima@exemplo.com
+434;Henrique Silva;Niterói;RJ;2767.00;31;2024-04-29;20240429;teste@teste.com
+435;Karen Lima;Curitiba;pr;2218.00;37;2023-07-23;23/07/23;
+436;Gabriela Souza;Niterói;RJ;5730.00;35;2024-08-21;2024-08-21;gabriela.souza@exemplo.com
+437;Bruno Rodrigues;Curitiba;pr;5883.00;49;2023-04-04;;teste@teste.com
+438;Bruno Silva;Belo Horizonte;mg;1957.00;38;2024-07-25;;teste@teste.com
+439;Otávio Oliveira;Santos;SP;8433.00;34;2023-02-10;20230210;teste@teste.com
+440;Sara Rodrigues;Rio de Janeiro;RJ;6362.00;35;2024-09-05;;sara.rodrigues@exemplo.com
+441;Otávio Santos;Contagem;MG;11701.00;50;2024-01-24;;otávio.santos@exemplo.com
+442;Leonardo Oliveira;Belo Horizonte;MG;8088.00;49;2024-07-18;18/07/2024;teste@teste.com
+443;Karen Souza;Santos;SP;1789.00;26;2023-07-02;2023-07-02;karen.souza@exemplo.com
+444;Diego Silva;Feira de Santana;BA;12776.00;55;2023-09-20;2023-09-20;diego.silva@exemplo.com
+445;Carla Silva;Niterói;rj;2658.00;21;2024-01-05;;teste@teste.com
+446;Leonardo Silva;Feira de Santana;BA;1344.00;22;2023-08-10;;leonardo.silva@exemplo.com
+447;Sara Costa;Rio de Janeiro;RJ;3066.00;53;2024-03-01;;sara.costa@exemplo.com
+448;Leonardo Rodrigues;Londrina;PR;2041.00;53;2024-02-16;;leonardo.rodrigues@exemplo.com
+449;Vitória Rodrigues;Contagem;MG;6461.00;58;2024-03-16;;vitória.rodrigues@exemplo.com
+450;Sara Oliveira;Caxias do Sul;RS;6626.00;43;2023-01-01;;sara.oliveira@exemplo.com
+451;Ana Lima;Belo Horizonte;mg;4154.00;38;2023-01-23;;
+452;Rafael Lima;São Paulo;SP;12428.00;34;2024-01-11;;rafael.lima@exemplo.com
+453;João Souza;Feira de Santana;ba;2858.00;68;2024-05-09;09/05/2024;joão.souza@exemplo.com
+454;Tiago Souza;Feira de Santana;ba;1981.00;;2023-02-27;27/02/23;tiago.souza@exemplo.com
+455;Natália Souza;Rio de Janeiro;RJ;7810.00;20;2023-11-23;;natália.souza@exemplo.com
+456;Henrique Lima;Santos;SP;8612.00;54;2024-05-31;2024-05-31;henrique.lima@exemplo.com
+457;Marina Lima;Niterói;RJ;2674.00;21;2024-07-15;20240715;marina.lima@exemplo.com
+458;Natália Lima;Niterói;RJ;3699.00;54;2023-07-20;;teste@teste.com
+459;Henrique Oliveira;Campinas;SP;8362.00;54;2023-04-02;2023-04-02;teste@teste.com
+460;Leonardo Oliveira;Contagem;MG;1824.00;40;2024-09-23;20240923;teste@teste.com
+461;Henrique Oliveira;Londrina;pr;2375.00;21;2023-09-06;;
+462;João Silva;Belo Horizonte;MG;4621.00;39;2023-08-03;;joão.silva@exemplo.com
+463;Rafael Santos;Feira de Santana;BA;2237.00;60;2024-06-23;2024-06-23;rafael.santos@exemplo.com
+464;Gabriela Santos;Campinas;SP;1336.00;35;2024-11-09;;gabriela.santos@exemplo.com
+465;João Costa;Niterói;RJ;2346.00;56;2024-06-28;2024-06-28;joão.costa@exemplo.com
+466;Otávio Silva;São Paulo;SP;4383.00;65;2023-06-10;2023-06-10;otávio.silva@exemplo.com
+467;João Oliveira;Feira de Santana;BA;1727.00;70;2023-01-31;;
+468;Karen Costa;Curitiba;PR;2482.00;61;2024-09-19;;teste@teste.com
+469;Tiago Lima;Caxias do Sul;RS;6619.00;31;2024-10-30;30/10/2024;tiago.lima@exemplo.com
+470;Gabriela Lima;Belo Horizonte;MG;7997.00;54;2023-06-11;11/06/23;gabriela.lima@exemplo.com
+471;Diego Lima;Belo Horizonte;mg;1852.00;44;2024-02-26;26/02/24;diego.lima@exemplo.com
+472;Isabela Lima;Rio de Janeiro;RJ;2578.00;;2024-09-18;;isabela.lima@exemplo.com
+473;Henrique Oliveira;Rio de Janeiro;RJ;5862.00;48;2023-05-18;;
+474;Leonardo Lima;Caxias do Sul;RS;11981.00;32;2023-02-03;20230203;teste@teste.com
+475;Isabela Costa;Rio de Janeiro;rj;2835.00;46;2024-09-23;20240923;teste@teste.com
+476;Henrique Costa;Porto Alegre;RS;8340.00;65;2024-08-08;;henrique.costa@exemplo.com
+477;Bruno Souza;Caxias do Sul;RS;1703.00;43;2025-01-22;2025-01-22;bruno.souza@exemplo.com
+478;Bruno Oliveira;Contagem;MG;8323.00;36;2024-04-17;17/04/2024;bruno.oliveira@exemplo.com
+479;Bruno Lima;Caxias do Sul;RS;2725.00;67;2024-08-22;;bruno.lima@exemplo.com
+480;Karen Rodrigues;São Paulo;sp;12113.00;23;2023-09-14;14/09/23;teste@teste.com
+481;Felipe Souza;São Paulo;sp;12443.00;;2024-12-25;20241225;teste@teste.com
+482;Vitória Lima;Caxias do Sul;RS;1549.00;54;2024-11-06;06/11/2024;vitória.lima@exemplo.com
+483;Bruno Costa;Contagem;MG;12291.00;25;2023-05-15;15/05/2023;bruno.costa@exemplo.com
+484;Ana Rodrigues;Caxias do Sul;RS;2210.00;55;2024-11-06;20241106;ana.rodrigues@exemplo.com
+485;Vitória Silva;Niterói;rj;2800.00;21;2024-10-30;30/10/24;vitória.silva@exemplo.com
+486;Tiago Santos;Belo Horizonte;MG;1423.00;29;2023-06-15;;tiago.santos@exemplo.com
+487;Vitória Lima;Caxias do Sul;RS;1390.00;38;2024-01-13;20240113;
+488;Sara Souza;Contagem;MG;2449.00;35;2023-12-04;;sara.souza@exemplo.com
+489;Gabriela Silva;Santos;sp;2690.00;56;2024-12-24;24/12/24;gabriela.silva@exemplo.com
+490;Isabela Pereira;Niterói;RJ;12708.00;57;2023-08-27;;isabela.pereira@exemplo.com
+491;Diego Silva;Porto Alegre;RS;3549.00;39;2023-12-25;;
+492;Gabriela Santos;Belo Horizonte;MG;4314.00;38;2023-01-07;2023-01-07;teste@teste.com
+493;Tiago Silva;Rio de Janeiro;RJ;6392.00;48;2024-04-30;2024-04-30;teste@teste.com
+494;Otávio Pereira;Caxias do Sul;RS;2267.00;64;2024-11-25;25/11/24;otávio.pereira@exemplo.com
+495;Tiago Pereira;Belo Horizonte;MG;2774.00;39;2024-01-20;;tiago.pereira@exemplo.com
+496;Vitória Costa;Rio de Janeiro;RJ;4344.00;35;2024-02-28;2024-02-28;vitória.costa@exemplo.com
+497;Otávio Santos;Niterói;RJ;2429.00;20;2023-07-26;2023-07-26;otávio.santos@exemplo.com
+498;Paula Lima;Niterói;rj;12772.00;38;2023-05-27;2023-05-27;
+499;Eduarda Oliveira;Curitiba;PR;12493.00;51;2023-04-29;2023-04-29;eduarda.oliveira@exemplo.com
+500;Vitória Souza;Contagem;MG;1411.00;60;2023-11-16;2023-11-16;vitória.souza@exemplo.com
+501;Gabriela Pereira;Rio de Janeiro;RJ;4266.00;67;2024-03-27;;gabriela.pereira@exemplo.com
+502;Isabela Souza;Santos;SP;2123.00;53;2023-11-23;23/11/23;isabela.souza@exemplo.com
+503;João Oliveira;Rio de Janeiro;RJ;4393.00;21;2023-05-14;2023-05-14;joão.oliveira@exemplo.com
+504;Diego Costa;São Paulo;SP;8502.00;56;2024-08-29;;
+505;Vitória Pereira;Contagem;mg;3792.00;;2024-04-21;;vitória.pereira@exemplo.com
+506;Otávio Souza;Caxias do Sul;RS;12663.00;32;2023-05-28;;otávio.souza@exemplo.com
+507;Felipe Pereira;Contagem;mg;11761.00;;2023-04-26;26/04/23;felipe.pereira@exemplo.com
+508;João Pereira;Salvador;BA;2530.00;68;2023-04-20;20/04/23;joão.pereira@exemplo.com
+509;João Rodrigues;Caxias do Sul;rs;3199.00;48;2024-01-29;2024-01-29;joão.rodrigues@exemplo.com
+510;Tiago Costa;Caxias do Sul;RS;3054.00;22;2025-01-27;;tiago.costa@exemplo.com
+511;Tiago Rodrigues;Belo Horizonte;mg;12060.00;43;2023-03-13;;tiago.rodrigues@exemplo.com
+512;Marina Pereira;Porto Alegre;RS;2145.00;55;2024-10-13;2024-10-13;teste@teste.com
+513;Otávio Santos;Caxias do Sul;RS;3121.00;38;2023-11-03;;teste@teste.com
+514;Natália Pereira;Santos;SP;2245.00;26;2023-10-29;2023-10-29;natália.pereira@exemplo.com
+515;Bruno Silva;Londrina;PR;2277.00;33;2024-03-18;;bruno.silva@exemplo.com
+516;Marina Costa;Caxias do Sul;RS;3055.00;30;2024-07-22;20240722;
+517;Natália Lima;Belo Horizonte;MG;2223.00;;2023-01-17;17/01/2023;teste@teste.com
+518;Natália Lima;São Paulo;SP;8633.00;62;2024-09-10;20240910;teste@teste.com
+519;Natália Rodrigues;Caxias do Sul;RS;3080.00;18;2024-08-14;20240814;
+520;Rafael Santos;Caxias do Sul;rs;1277.00;63;2024-01-13;2024-01-13;rafael.santos@exemplo.com
+521;Carla Lima;Londrina;PR;12758.00;;2024-09-16;2024-09-16;carla.lima@exemplo.com
+522;Carla Santos;Salvador;BA;6795.00;48;2024-04-09;;
+523;Karen Costa;Contagem;MG;4043.00;;2024-09-03;;karen.costa@exemplo.com
+524;Isabela Silva;Londrina;PR;2305.00;36;2025-01-25;;isabela.silva@exemplo.com
+525;Eduarda Souza;Contagem;MG;2775.00;34;2023-01-15;;eduarda.souza@exemplo.com
+526;Tiago Lima;Londrina;PR;6059.00;62;2023-08-30;20230830;tiago.lima@exemplo.com
+527;Bruno Pereira;São Paulo;SP;3215.00;44;2024-01-28;28/01/2024;teste@teste.com
+528;Felipe Oliveira;Feira de Santana;BA;1741.00;25;2023-02-23;23/02/2023;felipe.oliveira@exemplo.com
+529;Paula Oliveira;Caxias do Sul;RS;12237.00;45;2023-01-13;13/01/23;
+530;Karen Silva;Santos;sp;6584.00;59;2023-10-07;07/10/23;karen.silva@exemplo.com
+531;Isabela Costa;Porto Alegre;RS;3764.00;62;2023-07-04;04/07/23;isabela.costa@exemplo.com
+532;Carla Silva;Porto Alegre;RS;2613.00;64;2023-10-18;18/10/23;carla.silva@exemplo.com
+533;Carla Silva;Salvador;BA;1945.00;;2024-09-11;11/09/2024;carla.silva@exemplo.com
+534;Tiago Lima;Santos;sp;2718.00;60;2023-03-19;;tiago.lima@exemplo.com
+535;Natália Pereira;Belo Horizonte;MG;2267.00;42;2024-02-02;02/02/24;
+536;Isabela Lima;Porto Alegre;RS;12110.00;29;2024-10-22;20241022;isabela.lima@exemplo.com
+537;Natália Oliveira;Salvador;BA;12230.00;22;2023-03-14;;teste@teste.com
+538;Ana Rodrigues;Rio de Janeiro;RJ;1999.00;62;2023-12-04;20231204;ana.rodrigues@exemplo.com
+539;Paula Rodrigues;Caxias do Sul;RS;2162.00;;2024-12-06;20241206;paula.rodrigues@exemplo.com
+540;Leonardo Pereira;Londrina;pr;7813.00;59;2023-04-03;03/04/23;leonardo.pereira@exemplo.com
+541;Carla Rodrigues;Belo Horizonte;mg;2280.00;60;2023-07-15;15/07/23;teste@teste.com
+542;Leonardo Rodrigues;Santos;SP;12088.00;30;2023-01-26;;
+543;Marina Souza;Feira de Santana;BA;12793.00;69;2024-04-05;2024-04-05;marina.souza@exemplo.com
+544;Bruno Costa;São Paulo;SP;12798.00;55;2023-08-27;2023-08-27;bruno.costa@exemplo.com
+545;Ana Rodrigues;Salvador;ba;2967.00;;2024-10-09;2024-10-09;
+546;Diego Rodrigues;Salvador;BA;1917.00;56;2024-09-22;22/09/2024;diego.rodrigues@exemplo.com
+547;Karen Costa;Belo Horizonte;MG;2858.00;68;2023-08-07;2023-08-07;karen.costa@exemplo.com
+548;Diego Santos;Niterói;RJ;2957.00;46;2023-09-07;;diego.santos@exemplo.com
+549;Vitória Costa;Rio de Janeiro;RJ;11865.00;;2023-07-03;2023-07-03;teste@teste.com
+550;João Costa;Londrina;pr;2622.00;35;2024-06-19;20240619;joão.costa@exemplo.com
+551;Vitória Silva;Salvador;BA;11880.00;68;2023-11-05;05/11/23;vitória.silva@exemplo.com
+552;Gabriela Souza;Salvador;BA;6739.00;67;2024-10-03;;gabriela.souza@exemplo.com
+553;Diego Lima;Londrina;PR;12061.00;20;2023-02-25;;diego.lima@exemplo.com
+554;Isabela Pereira;Feira de Santana;BA;1413.00;52;2023-06-30;30/06/2023;teste@teste.com
+555;Diego Souza;Niterói;RJ;6558.00;61;2023-11-30;30/11/2023;teste@teste.com
+556;Diego Oliveira;Londrina;pr;3469.00;22;2024-04-27;;diego.oliveira@exemplo.com
+557;Eduarda Oliveira;Feira de Santana;ba;2993.00;47;2025-01-07;07/01/2025;teste@teste.com
+558;Gabriela Pereira;Rio de Janeiro;RJ;1774.00;47;2024-04-14;20240414;gabriela.pereira@exemplo.com
+559;João Lima;Curitiba;pr;2877.00;51;2024-05-15;15/05/2024;joão.lima@exemplo.com
+560;Isabela Silva;Londrina;pr;3207.00;55;2023-08-16;;
+561;Ana Costa;São Paulo;SP;12732.00;;2024-06-27;20240627;ana.costa@exemplo.com
+562;Diego Rodrigues;Porto Alegre;RS;1725.00;44;2023-08-12;12/08/2023;diego.rodrigues@exemplo.com
+563;Carla Silva;Caxias do Sul;RS;3140.00;65;2024-08-20;2024-08-20;
+564;Eduarda Costa;Niterói;RJ;11702.00;22;2024-01-30;;eduarda.costa@exemplo.com
+565;Natália Santos;Curitiba;PR;2387.00;21;2024-06-11;;natália.santos@exemplo.com
+566;Marina Pereira;Porto Alegre;RS;6450.00;53;2024-12-22;2024-12-22;marina.pereira@exemplo.com
+567;Eduarda Pereira;Rio de Janeiro;RJ;12129.00;66;2023-08-19;19/08/23;eduarda.pereira@exemplo.com
+568;Natália Santos;São Paulo;SP;6407.00;50;2024-06-23;2024-06-23;natália.santos@exemplo.com
+569;Sara Santos;Caxias do Sul;RS;2085.00;47;2023-03-31;2023-03-31;sara.santos@exemplo.com
+570;Carla Souza;Niterói;RJ;2003.00;31;2024-06-17;;carla.souza@exemplo.com
+571;Sara Lima;Caxias do Sul;rs;8609.00;19;2023-10-26;26/10/2023;sara.lima@exemplo.com
+572;Henrique Pereira;Caxias do Sul;RS;6695.00;62;2024-06-26;;henrique.pereira@exemplo.com
+573;Eduarda Santos;Niterói;RJ;3691.00;36;2023-02-18;18/02/2023;eduarda.santos@exemplo.com
+574;Felipe Lima;Londrina;PR;2559.00;62;2024-11-13;13/11/2024;felipe.lima@exemplo.com
+575;Karen Lima;Caxias do Sul;RS;6077.00;63;2023-02-05;;karen.lima@exemplo.com
+576;Leonardo Rodrigues;Salvador;ba;3948.00;43;2024-05-26;26/05/2024;
+577;Eduarda Silva;Londrina;PR;4670.00;66;2024-08-10;;eduarda.silva@exemplo.com
+578;Otávio Pereira;Curitiba;PR;11782.00;53;2023-04-30;30/04/23;otávio.pereira@exemplo.com
+579;Henrique Rodrigues;Belo Horizonte;mg;5812.00;30;2024-08-20;;henrique.rodrigues@exemplo.com
+580;Isabela Oliveira;São Paulo;SP;11878.00;43;2023-07-19;20230719;isabela.oliveira@exemplo.com
+581;Bruno Pereira;Porto Alegre;rs;8457.00;18;2023-10-19;19/10/23;bruno.pereira@exemplo.com
+582;Sara Souza;Niterói;RJ;8606.00;69;2025-01-15;20250115;teste@teste.com
+583;Tiago Souza;Rio de Janeiro;RJ;4672.00;51;2023-12-10;2023-12-10;
+584;Marina Souza;Campinas;SP;4548.00;47;2024-12-28;;teste@teste.com
+585;Felipe Costa;Contagem;MG;1818.00;37;2024-05-20;;teste@teste.com
+586;Ana Lima;Contagem;MG;11954.00;36;2024-03-03;03/03/2024;ana.lima@exemplo.com
+587;Henrique Silva;Campinas;sp;11836.00;41;2024-08-18;20240818;henrique.silva@exemplo.com
+588;Paula Souza;Belo Horizonte;MG;4033.00;27;2023-11-24;20231124;
+589;Felipe Silva;Contagem;MG;8429.00;;2023-10-26;;teste@teste.com
+590;Gabriela Lima;Santos;SP;2860.00;70;2024-12-02;02/12/24;gabriela.lima@exemplo.com
+591;Leonardo Souza;Feira de Santana;ba;2226.00;36;2024-01-17;20240117;leonardo.souza@exemplo.com
+592;Felipe Souza;Rio de Janeiro;RJ;3085.00;53;2024-09-20;;
+593;Sara Souza;Caxias do Sul;RS;1938.00;19;2024-05-06;06/05/24;sara.souza@exemplo.com
+594;Otávio Pereira;Niterói;RJ;1442.00;62;2023-05-26;;otávio.pereira@exemplo.com
+595;Eduarda Souza;Porto Alegre;RS;1738.00;66;2024-03-17;2024-03-17;eduarda.souza@exemplo.com
+596;Rafael Silva;Porto Alegre;RS;3788.00;;2024-11-14;2024-11-14;teste@teste.com
+597;Vitória Oliveira;Salvador;ba;2919.00;;2023-05-30;;
+598;Leonardo Pereira;Rio de Janeiro;RJ;1902.00;66;2023-01-15;;leonardo.pereira@exemplo.com
+599;João Lima;Salvador;BA;2138.00;63;2024-05-01;01/05/24;teste@teste.com
+600;Diego Lima;Contagem;MG;8138.00;44;2023-04-26;26/04/23;diego.lima@exemplo.com
+601;Eduarda Rodrigues;Contagem;MG;1368.00;25;2024-01-30;30/01/24;eduarda.rodrigues@exemplo.com
+602;Otávio Oliveira;Feira de Santana;BA;4576.00;22;2024-05-02;;otávio.oliveira@exemplo.com
+603;Paula Souza;Caxias do Sul;RS;1944.00;43;2024-12-12;;
+604;Felipe Souza;Belo Horizonte;MG;6110.00;43;2023-05-06;06/05/2023;
+605;Isabela Santos;Londrina;PR;6674.00;43;2024-05-11;;isabela.santos@exemplo.com
+606;Diego Souza;Contagem;mg;12172.00;26;2023-01-31;2023-01-31;teste@teste.com
+607;Paula Silva;Niterói;RJ;6012.00;57;2023-04-09;2023-04-09;teste@teste.com
+608;Paula Rodrigues;Niterói;rj;12704.00;52;2023-12-18;;paula.rodrigues@exemplo.com
+609;Bruno Costa;Campinas;SP;12344.00;46;2024-04-15;2024-04-15;bruno.costa@exemplo.com
+610;João Lima;Caxias do Sul;RS;2839.00;49;2023-04-23;;teste@teste.com
+611;Sara Rodrigues;Porto Alegre;RS;2001.00;55;2024-01-22;;teste@teste.com
+612;João Pereira;São Paulo;sp;1462.00;40;2025-01-29;;joão.pereira@exemplo.com
+613;Karen Costa;Campinas;SP;6431.00;21;2024-11-08;08/11/2024;karen.costa@exemplo.com
+614;Tiago Souza;Curitiba;PR;3934.00;19;2024-07-05;05/07/24;tiago.souza@exemplo.com
+615;Natália Costa;Belo Horizonte;MG;11745.00;42;2024-08-07;20240807;natália.costa@exemplo.com
+616;Paula Souza;Curitiba;PR;6717.00;66;2024-11-14;14/11/24;paula.souza@exemplo.com
+617;Natália Oliveira;Porto Alegre;RS;3288.00;37;2024-08-10;20240810;
+618;Carla Souza;Feira de Santana;BA;3837.00;51;2024-05-01;20240501;carla.souza@exemplo.com
+619;João Santos;Caxias do Sul;RS;3548.00;57;2024-06-11;20240611;teste@teste.com
+620;Ana Lima;Feira de Santana;ba;3657.00;58;2024-06-29;;
+621;Tiago Silva;Salvador;BA;6647.00;27;2024-12-02;02/12/24;
+622;Carla Oliveira;Caxias do Sul;RS;4028.00;56;2023-08-30;20230830;carla.oliveira@exemplo.com
+623;Ana Oliveira;Contagem;MG;12593.00;20;2023-07-26;26/07/2023;ana.oliveira@exemplo.com
+624;Isabela Lima;Curitiba;pr;11740.00;;2023-03-27;27/03/23;teste@teste.com
+625;Natália Pereira;Curitiba;PR;7987.00;54;2025-01-22;;
+626;Tiago Santos;Porto Alegre;rs;2950.00;38;2023-12-04;;teste@teste.com
+627;Henrique Costa;Rio de Janeiro;RJ;2058.00;35;2024-03-26;20240326;henrique.costa@exemplo.com
+628;Paula Pereira;Curitiba;PR;6567.00;33;2023-10-12;12/10/2023;paula.pereira@exemplo.com
+629;João Silva;Curitiba;PR;1690.00;42;2023-11-13;;
+630;Diego Oliveira;Caxias do Sul;RS;2004.00;34;2023-11-05;2023-11-05;
+631;João Oliveira;Niterói;RJ;6532.00;35;2023-03-24;20230324;joão.oliveira@exemplo.com
+632;Karen Costa;São Paulo;SP;4736.00;;2024-03-06;;teste@teste.com
+633;Karen Rodrigues;Curitiba;PR;1576.00;68;2024-10-18;18/10/2024;karen.rodrigues@exemplo.com
+634;João Pereira;Salvador;BA;2023.00;63;2024-10-26;26/10/2024;
+635;Karen Rodrigues;Porto Alegre;RS;4055.00;70;2023-12-02;02/12/23;karen.rodrigues@exemplo.com
+636;Felipe Costa;Porto Alegre;RS;1247.00;59;2024-09-18;;felipe.costa@exemplo.com
+637;Otávio Oliveira;Belo Horizonte;MG;2021.00;56;2023-09-24;24/09/2023;otávio.oliveira@exemplo.com
+638;Tiago Souza;Santos;SP;8629.00;49;2023-05-02;02/05/2023;teste@teste.com
+639;Isabela Santos;Londrina;PR;7966.00;31;2024-09-06;06/09/2024;
+640;Gabriela Costa;Niterói;RJ;2258.00;34;2023-08-30;;gabriela.costa@exemplo.com
+641;Tiago Rodrigues;São Paulo;SP;11972.00;62;2024-02-12;;tiago.rodrigues@exemplo.com
+642;Natália Santos;São Paulo;sp;1306.00;33;2024-04-27;27/04/24;
+643;Vitória Silva;Campinas;SP;8319.00;60;2024-01-15;15/01/2024;
+644;Tiago Lima;Belo Horizonte;MG;12394.00;26;2023-04-02;02/04/23;teste@teste.com
+645;Isabela Souza;Belo Horizonte;mg;3222.00;35;2024-01-05;20240105;isabela.souza@exemplo.com
+646;Vitória Santos;Feira de Santana;BA;8037.00;49;2023-06-04;;
+647;Otávio Silva;Rio de Janeiro;RJ;1670.00;48;2023-09-24;24/09/2023;teste@teste.com
+648;Paula Silva;Caxias do Sul;RS;12637.00;64;2023-06-01;2023-06-01;paula.silva@exemplo.com
+649;João Lima;Niterói;RJ;2708.00;54;2023-07-04;20230704;
+650;Paula Souza;Belo Horizonte;MG;3949.00;55;2023-04-19;19/04/23;paula.souza@exemplo.com
+651;Paula Rodrigues;Londrina;PR;1874.00;59;2024-09-29;20240929;paula.rodrigues@exemplo.com
+652;Tiago Lima;Rio de Janeiro;RJ;4361.00;65;2023-03-14;;
+653;Marina Santos;Rio de Janeiro;RJ;7882.00;;2023-08-02;02/08/2023;marina.santos@exemplo.com
+654;Eduarda Souza;Contagem;mg;8335.00;56;2023-05-15;15/05/23;teste@teste.com
+655;Rafael Oliveira;Caxias do Sul;rs;8675.00;56;2024-03-09;2024-03-09;teste@teste.com
+656;Vitória Lima;Caxias do Sul;RS;1782.00;47;2024-11-23;23/11/2024;teste@teste.com
+657;Paula Souza;Contagem;MG;7862.00;48;2023-11-04;04/11/2023;
+658;João Oliveira;Feira de Santana;BA;3797.00;20;2024-06-09;2024-06-09;joão.oliveira@exemplo.com
+659;Otávio Santos;Contagem;MG;2731.00;;2025-01-28;;otávio.santos@exemplo.com
+660;Marina Silva;Campinas;SP;4342.00;47;2024-11-17;20241117;teste@teste.com
+661;Felipe Oliveira;Rio de Janeiro;RJ;3917.00;19;2023-01-06;20230106;felipe.oliveira@exemplo.com
+662;Paula Rodrigues;Londrina;PR;12320.00;57;2024-01-05;;teste@teste.com
+663;Marina Santos;São Paulo;sp;2228.00;70;2023-01-17;;
+664;Gabriela Rodrigues;Curitiba;PR;3592.00;68;2024-07-05;05/07/2024;gabriela.rodrigues@exemplo.com
+665;Eduarda Rodrigues;Porto Alegre;RS;2040.00;65;2024-12-20;20241220;
+666;Otávio Oliveira;Niterói;RJ;7804.00;24;2024-10-07;;otávio.oliveira@exemplo.com
+667;Paula Santos;Campinas;sp;8695.00;64;2024-09-18;;
+668;Henrique Silva;Salvador;BA;8346.00;35;2024-10-25;20241025;
+669;Vitória Pereira;Caxias do Sul;RS;1530.00;30;2024-04-25;25/04/24;vitória.pereira@exemplo.com
+670;Tiago Pereira;Feira de Santana;BA;2800.00;42;2024-03-02;;teste@teste.com
+671;Paula Lima;Salvador;BA;3876.00;26;2023-06-27;27/06/2023;paula.lima@exemplo.com
+672;Natália Rodrigues;Belo Horizonte;MG;2796.00;40;2023-09-25;25/09/23;teste@teste.com
+673;Rafael Silva;Campinas;sp;7933.00;25;2024-07-29;29/07/2024;rafael.silva@exemplo.com
+674;Leonardo Silva;Feira de Santana;BA;3255.00;24;2024-12-24;2024-12-24;
+675;Otávio Souza;Santos;sp;1785.00;28;2024-10-07;2024-10-07;
+676;Felipe Santos;Londrina;PR;11903.00;41;2023-12-09;09/12/2023;felipe.santos@exemplo.com
+677;Natália Silva;Niterói;RJ;6287.00;23;2023-09-30;30/09/23;teste@teste.com
+678;Henrique Lima;Feira de Santana;BA;2982.00;44;2024-02-24;20240224;
+679;Leonardo Silva;Porto Alegre;RS;2259.00;23;2023-12-13;13/12/23;leonardo.silva@exemplo.com
+680;Natália Silva;Porto Alegre;RS;2318.00;63;2024-11-07;;
+681;Sara Santos;Londrina;PR;5716.00;51;2024-09-17;17/09/2024;teste@teste.com
+682;Gabriela Rodrigues;Londrina;PR;8104.00;23;2023-02-07;;gabriela.rodrigues@exemplo.com
+683;Eduarda Santos;Rio de Janeiro;RJ;4767.00;58;2023-06-13;2023-06-13;eduarda.santos@exemplo.com
+684;Tiago Santos;Niterói;RJ;8734.00;21;2024-01-17;17/01/24;teste@teste.com
+685;Bruno Souza;Caxias do Sul;rs;2128.00;33;2024-08-18;;teste@teste.com
+686;Sara Oliveira;Contagem;MG;3986.00;51;2025-01-25;25/01/2025;sara.oliveira@exemplo.com
+687;Gabriela Pereira;Porto Alegre;RS;3071.00;23;2023-04-05;2023-04-05;gabriela.pereira@exemplo.com
+688;Gabriela Rodrigues;Campinas;sp;8762.00;34;2024-08-21;20240821;teste@teste.com
+689;Paula Costa;Rio de Janeiro;RJ;3192.00;26;2024-12-22;;
+690;Gabriela Rodrigues;Porto Alegre;RS;2956.00;25;2024-09-08;20240908;gabriela.rodrigues@exemplo.com
+691;João Silva;Salvador;BA;2460.00;41;2023-11-07;07/11/23;joão.silva@exemplo.com
+692;Eduarda Costa;Campinas;SP;4141.00;65;2024-05-15;2024-05-15;eduarda.costa@exemplo.com
+693;Bruno Costa;Caxias do Sul;RS;12391.00;48;2025-01-07;;bruno.costa@exemplo.com
+694;Otávio Rodrigues;Londrina;PR;2866.00;;2024-10-01;;teste@teste.com
+695;Marina Pereira;Salvador;BA;12268.00;28;2024-12-25;2024-12-25;marina.pereira@exemplo.com
+696;João Souza;Curitiba;PR;2808.00;51;2023-07-13;20230713;joão.souza@exemplo.com
+697;Sara Lima;Campinas;SP;3202.00;55;2024-03-30;2024-03-30;
+698;Marina Silva;Porto Alegre;RS;6595.00;19;2024-06-24;24/06/24;marina.silva@exemplo.com
+699;Diego Lima;Belo Horizonte;MG;2723.00;27;2023-11-11;20231111;teste@teste.com
+700;Karen Lima;Santos;SP;1810.00;38;2023-05-26;20230526;
+701;Diego Silva;Rio de Janeiro;RJ;3709.00;50;2024-01-30;2024-01-30;diego.silva@exemplo.com
+702;Sara Costa;Campinas;SP;2034.00;19;2023-10-03;;
+703;Henrique Lima;Contagem;mg;11871.00;50;2023-07-28;28/07/2023;henrique.lima@exemplo.com
+704;Henrique Costa;Feira de Santana;BA;1202.00;57;2023-10-24;;
+705;Paula Santos;Feira de Santana;BA;8419.00;31;2024-08-22;;paula.santos@exemplo.com
+706;Sara Souza;Belo Horizonte;MG;7951.00;64;2024-07-23;23/07/24;
+707;Rafael Pereira;Londrina;pr;4627.00;60;2023-11-26;26/11/23;rafael.pereira@exemplo.com
+708;Karen Silva;Curitiba;PR;2175.00;;2023-01-10;;karen.silva@exemplo.com
+709;Paula Costa;Salvador;BA;1763.00;70;2024-11-18;20241118;teste@teste.com
+710;Marina Pereira;Porto Alegre;RS;1455.00;30;2024-03-31;2024-03-31;marina.pereira@exemplo.com
+711;Isabela Pereira;Rio de Janeiro;rj;4152.00;49;2024-01-07;2024-01-07;isabela.pereira@exemplo.com
+712;Vitória Oliveira;São Paulo;SP;7927.00;54;2024-05-27;20240527;vitória.oliveira@exemplo.com
+713;Tiago Lima;Santos;SP;2333.00;54;2023-08-22;;teste@teste.com
+714;Ana Santos;Londrina;pr;2074.00;59;2023-02-23;23/02/23;ana.santos@exemplo.com
+715;Isabela Souza;Londrina;pr;12440.00;20;2025-01-08;08/01/2025;isabela.souza@exemplo.com
+716;Sara Rodrigues;Belo Horizonte;MG;8098.00;54;2023-01-26;;sara.rodrigues@exemplo.com
+717;Carla Oliveira;Rio de Janeiro;RJ;6336.00;;2024-10-02;2024-10-02;carla.oliveira@exemplo.com
+718;Ana Pereira;Belo Horizonte;MG;2669.00;39;2023-02-25;25/02/23;ana.pereira@exemplo.com
+719;Carla Rodrigues;Santos;sp;11955.00;;2023-03-04;2023-03-04;carla.rodrigues@exemplo.com
+720;Carla Lima;Campinas;SP;1817.00;45;2023-03-09;2023-03-09;teste@teste.com
+721;João Costa;Porto Alegre;RS;8177.00;68;2024-11-06;;joão.costa@exemplo.com
+722;Natália Souza;Belo Horizonte;MG;12759.00;30;2023-04-21;2023-04-21;natália.souza@exemplo.com
+723;Tiago Oliveira;Salvador;BA;4427.00;64;2024-09-27;20240927;tiago.oliveira@exemplo.com
+724;Bruno Silva;Niterói;RJ;8750.00;66;2024-01-02;02/01/24;bruno.silva@exemplo.com
+725;Eduarda Lima;Caxias do Sul;RS;6296.00;18;2024-06-14;;teste@teste.com
+726;Henrique Silva;Caxias do Sul;RS;3110.00;30;2023-03-12;12/03/23;henrique.silva@exemplo.com
+727;Otávio Pereira;Feira de Santana;ba;4557.00;24;2024-04-10;2024-04-10;otávio.pereira@exemplo.com
+728;Henrique Oliveira;Porto Alegre;RS;3684.00;70;2023-12-06;;henrique.oliveira@exemplo.com
+729;Ana Pereira;São Paulo;SP;5761.00;27;2023-10-25;20231025;ana.pereira@exemplo.com
+730;Leonardo Silva;São Paulo;SP;3281.00;34;2025-01-06;06/01/2025;leonardo.silva@exemplo.com
+731;Felipe Oliveira;São Paulo;SP;3907.00;;2024-11-24;24/11/2024;felipe.oliveira@exemplo.com
+732;Diego Pereira;Niterói;rj;12191.00;41;2024-11-07;07/11/2024;
+733;Vitória Costa;Curitiba;PR;1995.00;26;2023-07-14;14/07/2023;vitória.costa@exemplo.com
+734;Karen Costa;Curitiba;PR;1587.00;36;2023-06-02;02/06/23;karen.costa@exemplo.com
+735;Isabela Lima;Feira de Santana;BA;2866.00;68;2024-11-10;;isabela.lima@exemplo.com
+736;Rafael Pereira;Caxias do Sul;RS;2859.00;51;2024-12-12;20241212;teste@teste.com
+737;Isabela Costa;Curitiba;PR;3149.00;46;2023-08-29;20230829;isabela.costa@exemplo.com
+738;Marina Lima;Contagem;MG;1975.00;36;2024-03-31;;marina.lima@exemplo.com
+739;Otávio Pereira;Caxias do Sul;RS;12585.00;69;2024-05-24;24/05/24;otávio.pereira@exemplo.com
+740;Otávio Oliveira;Belo Horizonte;MG;5868.00;50;2024-06-09;;teste@teste.com
+741;Henrique Souza;São Paulo;SP;5778.00;39;2023-07-21;;henrique.souza@exemplo.com
+742;Isabela Oliveira;Curitiba;pr;3717.00;36;2023-12-21;20231221;
+743;Ana Rodrigues;Curitiba;PR;8166.00;65;2023-08-03;20230803;ana.rodrigues@exemplo.com
+744;Sara Rodrigues;Londrina;PR;5875.00;30;2024-03-15;;sara.rodrigues@exemplo.com
+745;Sara Silva;Belo Horizonte;MG;2825.00;18;2024-05-26;;
+746;Natália Costa;Londrina;pr;4367.00;54;2023-02-02;02/02/2023;natália.costa@exemplo.com
+747;Karen Costa;Porto Alegre;rs;7830.00;30;2024-05-01;2024-05-01;karen.costa@exemplo.com
+748;João Souza;Rio de Janeiro;RJ;2265.00;56;2024-05-15;2024-05-15;joão.souza@exemplo.com
+749;Marina Santos;Rio de Janeiro;RJ;4773.00;;2023-02-28;28/02/23;marina.santos@exemplo.com
+750;Natália Costa;Rio de Janeiro;rj;3298.00;65;2023-03-12;20230312;
+751;Eduarda Oliveira;Contagem;MG;12025.00;37;2024-08-24;24/08/2024;eduarda.oliveira@exemplo.com
+752;Isabela Oliveira;São Paulo;SP;11831.00;56;2023-09-10;;isabela.oliveira@exemplo.com
+753;Paula Rodrigues;Porto Alegre;RS;2289.00;47;2023-12-22;;
+754;Marina Lima;Porto Alegre;RS;3084.00;60;2023-07-07;;marina.lima@exemplo.com
+755;Bruno Oliveira;Niterói;RJ;3836.00;64;2023-08-11;20230811;bruno.oliveira@exemplo.com
+756;Diego Pereira;São Paulo;SP;6539.00;34;2023-08-01;;diego.pereira@exemplo.com
+757;Otávio Costa;Contagem;MG;3512.00;;2023-09-14;2023-09-14;teste@teste.com
+758;Otávio Rodrigues;Porto Alegre;rs;2196.00;46;2023-05-24;20230524;
+759;Felipe Silva;Salvador;BA;2802.00;65;2024-02-05;05/02/2024;felipe.silva@exemplo.com
+760;Isabela Lima;Caxias do Sul;RS;2643.00;61;2024-06-29;29/06/2024;isabela.lima@exemplo.com
+761;Rafael Souza;Caxias do Sul;RS;11807.00;21;2024-01-22;22/01/2024;
+762;Henrique Oliveira;São Paulo;SP;7757.00;39;2023-07-16;;teste@teste.com
+763;Diego Lima;Curitiba;PR;2051.00;70;2023-12-01;01/12/23;diego.lima@exemplo.com
+764;Gabriela Costa;Porto Alegre;RS;3137.00;38;2023-06-27;2023-06-27;gabriela.costa@exemplo.com
+765;Marina Oliveira;Porto Alegre;RS;2270.00;41;2023-02-14;2023-02-14;
+766;Vitória Rodrigues;Santos;SP;2715.00;56;2023-11-29;;teste@teste.com
+767;Eduarda Pereira;Niterói;RJ;11838.00;56;2024-08-22;20240822;eduarda.pereira@exemplo.com
+768;Henrique Silva;Rio de Janeiro;RJ;2332.00;45;2023-09-07;;henrique.silva@exemplo.com
+769;Paula Santos;Rio de Janeiro;RJ;8118.00;33;2025-01-12;;
+770;Karen Lima;Contagem;MG;2266.00;44;2024-10-25;25/10/24;teste@teste.com
+771;Karen Pereira;Rio de Janeiro;RJ;1708.00;62;2025-01-06;06/01/2025;teste@teste.com
+772;Karen Lima;Porto Alegre;RS;2706.00;;2023-07-17;2023-07-17;teste@teste.com
+773;Gabriela Lima;São Paulo;SP;3183.00;45;2025-01-12;20250112;gabriela.lima@exemplo.com
+774;Henrique Costa;Rio de Janeiro;RJ;4284.00;58;2023-07-26;26/07/23;
+775;Leonardo Costa;Porto Alegre;rs;12603.00;57;2025-01-22;20250122;teste@teste.com
+776;Paula Silva;Caxias do Sul;RS;2314.00;27;2024-07-20;;paula.silva@exemplo.com
+777;João Rodrigues;Contagem;MG;11847.00;63;2024-04-25;25/04/2024;joão.rodrigues@exemplo.com
+778;Ana Pereira;Caxias do Sul;rs;8508.00;41;2024-01-29;20240129;ana.pereira@exemplo.com
+779;Carla Costa;São Paulo;SP;8032.00;45;2023-09-19;;carla.costa@exemplo.com
+780;Leonardo Silva;Londrina;PR;8205.00;20;2024-01-06;;teste@teste.com
+781;Eduarda Santos;Feira de Santana;BA;2720.00;55;2024-11-09;09/11/2024;eduarda.santos@exemplo.com
+782;Marina Costa;Curitiba;pr;3566.00;45;2023-09-16;;marina.costa@exemplo.com
+783;Marina Santos;Londrina;PR;1923.00;67;2023-12-19;19/12/2023;marina.santos@exemplo.com
+784;Marina Santos;São Paulo;SP;11703.00;;2024-12-14;20241214;marina.santos@exemplo.com
+785;Natália Lima;Niterói;rj;2475.00;29;2024-05-29;2024-05-29;natália.lima@exemplo.com
+786;Felipe Oliveira;Santos;SP;2592.00;44;2024-03-27;;
+787;Felipe Souza;Belo Horizonte;MG;7955.00;39;2023-01-31;;felipe.souza@exemplo.com
+788;Diego Silva;Campinas;SP;1285.00;;2024-06-18;2024-06-18;diego.silva@exemplo.com
+789;Isabela Rodrigues;Caxias do Sul;RS;8389.00;39;2023-11-19;19/11/2023;
+790;Marina Silva;Contagem;mg;1706.00;62;2024-02-16;;
+791;Ana Souza;Feira de Santana;BA;3454.00;61;2024-11-05;20241105;ana.souza@exemplo.com
+792;Ana Pereira;Santos;SP;5793.00;65;2023-11-30;;ana.pereira@exemplo.com
+793;Marina Souza;Contagem;mg;11905.00;36;2024-09-13;13/09/2024;teste@teste.com
+794;Tiago Silva;Niterói;rj;2317.00;53;2024-04-23;23/04/2024;
+795;Paula Oliveira;Rio de Janeiro;RJ;2383.00;63;2023-01-30;30/01/2023;
+796;Marina Santos;Niterói;RJ;11952.00;52;2024-10-10;;marina.santos@exemplo.com
+797;Karen Oliveira;Salvador;BA;6472.00;65;2025-01-23;;karen.oliveira@exemplo.com
+798;Sara Costa;Rio de Janeiro;rj;3936.00;25;2023-04-02;02/04/23;teste@teste.com
+799;Diego Pereira;Niterói;rj;7703.00;55;2024-07-02;02/07/2024;
+800;Karen Pereira;Curitiba;pr;2918.00;52;2024-04-16;16/04/24;karen.pereira@exemplo.com

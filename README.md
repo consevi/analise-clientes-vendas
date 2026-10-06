@@ -16,6 +16,7 @@ faturamento e relação entre renda e consumo.
 - NumPy
 - Matplotlib
 - Excel
+- PowerBl
 
 ## Análises realizadas
 

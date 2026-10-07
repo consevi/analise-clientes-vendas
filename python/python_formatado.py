@@ -12,164 +12,237 @@ import matplotlib.pyplot as plt
 # 1. CARREGAMENTO DOS DADOS
 # ============================================================
 
-tbc = pd.read_csv(("tb_clientes_bruto.csv"), sep=';')
-tbv = pd.read_csv(("tb_vendas_bruto.csv"), sep=';')
+tbc = pd.read_csv("tb_clientes_bruto.csv", sep=";")
+tbv = pd.read_csv("tb_vendas_bruto.csv", sep=";")
 
-dadoc = np.loadtxt(("tb_clientes_bruto.csv"), delimiter=';')
-dadov = np.loadtxt(("tb_vendas_bruto.csv"), delimiter=';')
+
 # ============================================================
 # 2. EXPLORAÇÃO DOS DADOS
 # ============================================================
 
-# Estrutura:
+# Estrutura dos dados
 print(f"Shape tbc: {tbc.shape}")
 print(f"Total de elementos tbc: {tbc.size}")
-print(f"Dimensoes tbc: {tbc.ndim}\n\n")
+print(f"Dimensões tbc: {tbc.ndim}\n")
 
-print(f"Shape tbv:{tbv.shape}")
-print(f"Total de elementos tbv:{tbv.size}")
-print(f"Dimensoes tbv: {tbv.ndim}\n\n")
+print(f"Shape tbv: {tbv.shape}")
+print(f"Total de elementos tbv: {tbv.size}")
+print(f"Dimensões tbv: {tbv.ndim}\n")
 
 
-# Categorias:
-
+# Categorias
 print(f"Tbc: {tbc.columns}\n")
-print(f"Tbv: {tbv.columns}")
+print(f"Tbv: {tbv.columns}\n")
 
-# Verificando se existem valores do tipo NaN:
 
-print(f"NaN tbc: {tbc.isnull().sum()}\n\n")
-
-print(f"NaN tbv: {tbv.isnull().sum()}\n")
+# Verificando valores NaN
+print(f"NaN tbc:\n{tbc.isnull().sum()}\n")
+print(f"NaN tbv:\n{tbv.isnull().sum()}\n")
 
 
 # ============================================================
 # 3. ANÁLISE BÁSICA DOS CLIENTES
 # ============================================================
 
-# Idade média dos clientes:
-
+# Idade média dos clientes
 idade_media_tbc = tbc["idade"].mean()
-print(f"Idade Média dos clientes: {idade_media_tbc:.2f}")
 
-# Maior e Menor idade:
-
-print(f"\nMaior idade: {tbc["idade"].max()}")
-
-print(f"Menor idade: {tbc["idade"].min()}\n")
+print(f"Idade média dos clientes: {idade_media_tbc:.2f}")
 
 
-# Renda mensal dos clientes:
+# Maior e menor idade
+print(f"\nMaior idade: {tbc['idade'].max()}")
+print(f"Menor idade: {tbc['idade'].min()}\n")
 
+
+# Renda mensal dos clientes
 renda_media = tbc["renda_mensal"].mean()
-print(f"Renda média dos clientrs: {renda_media:.2f}\n")
+
+print(f"Renda média dos clientes: {renda_media:.2f}\n")
 
 
-# Menor e Maior renda:
+# Maior e menor renda
+print(f"Maior renda: {tbc['renda_mensal'].max()}")
+print(f"Menor renda: {tbc['renda_mensal'].min()}\n")
 
-print(f"Maior renda: {tbc["renda_mensal"].max()}")
-print(f"Menor renda: {tbc["renda_mensal"].min()}\n")
 
 # ============================================================
 # 4. CLASSIFICAÇÃO DE RENDA
 # ============================================================
 
-# Classificando os clientes:
-
+# Classificando os clientes por faixa de renda
 tbc["class_renda"] = tbc["renda_mensal"].apply(
-    lambda i: "Alta renda" if i > 5000 else("Baixa renda" if i < 2000 else "Média renda")
+    lambda i: (
+        "Alta renda"
+        if i > 5000
+        else "Baixa renda"
+        if i < 2000
+        else "Média renda"
+    )
 )
 
 
-# Quantidade de clientes por renda:
+# Quantidade de clientes por faixa de renda
+qtd_clientes_por_renda = (
+    tbc.groupby("class_renda")["renda_mensal"].count()
+)
 
-qtd_clientes_por_renda = tbc.groupby("class_renda")["renda_mensal"].count()
-print(f"Quantidade de clientes em cada classe de renda: {qtd_clientes_por_renda}")
+print(
+    f"Quantidade de clientes em cada classe de renda:\n"
+    f"{qtd_clientes_por_renda}\n"
+)
 
-# Classe que possui mais clientes:
 
-print(f"\nClasse que possui mais clientes: {qtd_clientes_por_renda.idxmax()}\n")
+# Classe com mais clientes
+print(
+    f"Classe que possui mais clientes: "
+    f"{qtd_clientes_por_renda.idxmax()}\n"
+)
 
-# Renda média de cada classe:
 
-media_por_classe = tbc.groupby("class_renda")["renda_mensal"].mean()
-print(f"Média de renda por classe: {media_por_classe}\n")
+# Renda média de cada classe
+media_por_classe = (
+    tbc.groupby("class_renda")["renda_mensal"].mean()
+)
+
+print(f"Média de renda por classe:\n{media_por_classe}\n")
 
 
 # ============================================================
 # 5. ANÁLISE POR ESTADO
 # ============================================================
 
-# Renda média por estado:
-renda_media_estado = tbc.groupby("sg_uf")["renda_mensal"].mean()
-print(f"Renda média por estado: {renda_media_estado}\n")
+# Renda média por estado
+renda_media_estado = (
+    tbc.groupby("sg_uf")["renda_mensal"].mean()
+)
 
-print(f"Estado com maior renda média: {renda_media_estado.idxmax()} - renda: {renda_media_estado.max():.2f}") 
+print(f"Renda média por estado:\n{renda_media_estado}\n")
 
-print(f"Estado com menor renda média: {renda_media_estado.idxmin()} - renda: {renda_media_estado.min():.2f}") 
+print(
+    f"Estado com maior renda média: "
+    f"{renda_media_estado.idxmax()} - "
+    f"renda: {renda_media_estado.max():.2f}"
+)
 
-# Quantidade de clientes em cada estado:
+print(
+    f"Estado com menor renda média: "
+    f"{renda_media_estado.idxmin()} - "
+    f"renda: {renda_media_estado.min():.2f}\n"
+)
 
-print(f"\nQuantidade de clientes por estado: {tbc.groupby("sg_uf")["nm_cliente"].count()}\n")
 
-qtd_clientes_estado = tbc.groupby("sg_uf")["nm_cliente"].count()
+# Quantidade de clientes em cada estado
+qtd_clientes_estado = (
+    tbc.groupby("sg_uf")["nm_cliente"].count()
+)
 
-print(f"Estado com mais clientes: {qtd_clientes_estado.idxmax()} - quantidade {qtd_clientes_estado.max()}")
+print(
+    f"Quantidade de clientes por estado:\n"
+    f"{qtd_clientes_estado}\n"
+)
+
+
+# Estado com mais clientes
+print(
+    f"Estado com mais clientes: "
+    f"{qtd_clientes_estado.idxmax()} - "
+    f"quantidade: {qtd_clientes_estado.max()}\n"
+)
 
 
 # ============================================================
 # 6. ANÁLISE DAS VENDAS
 # ============================================================
 
-# Faturamento total:
-
+# Faturamento total
 faturamento_total = tbv["vl_total"].sum()
-print(f"Faturamento total: {faturamento_total}\n")
 
+print(f"Faturamento total: {faturamento_total:.2f}\n")
+
+
+# Média das vendas
 media_faturamento = tbv["vl_total"].mean()
-print(f"Média do faturamento total: {media_faturamento:.2f}")
 
-# Valor da maior e manor venda:
+print(f"Média das vendas: {media_faturamento:.2f}")
+
+
+# Maior e menor venda
 maior_venda = tbv["vl_total"].max()
 menor_venda = tbv["vl_total"].min()
-print(f"Maior venda: {maior_venda} - Menor venda {menor_venda}")
 
-# Quantidade de vendas:
+print(f"Maior venda: {maior_venda:.2f}")
+print(f"Menor venda: {menor_venda:.2f}\n")
+
+
+# Quantidade de vendas
 qtd_vendas = tbv["vl_total"].count()
-print(f"Quantidade de vendas: {qtd_vendas}")
+
+print(f"Quantidade de vendas: {qtd_vendas}\n")
 
 
 # ============================================================
 # 7. ANÁLISE POR CATEGORIA
 # ============================================================
 
-# Quantidade de vendas por categoria:
+# Quantidade de vendas por categoria
+qtd_vendas_categoria = (
+    tbv.groupby("categoria_prod")["qtd"].sum()
+)
 
-qtd_vendas_categoria = tbv.groupby("categoria_prod")["qtd"].sum()
-print(f"\nQuantidade de vendas por categoria: {qtd_vendas_categoria}\n")
+print(
+    f"Quantidade de vendas por categoria:\n"
+    f"{qtd_vendas_categoria}\n"
+)
 
-print(f"Categoria com maior quantidade de vendas: {qtd_vendas_categoria.idxmax()} - Vendas: {qtd_vendas_categoria.max()}\n")
+print(
+    f"Categoria com maior quantidade de vendas: "
+    f"{qtd_vendas_categoria.idxmax()} - "
+    f"Vendas: {qtd_vendas_categoria.max()}\n"
+)
 
-# Faturamento de cada categoria:
 
-faturamento_categoria = tbv.groupby("categoria_prod")["vl_total"].sum()
-print(f"Faturamento de cada categoria: {faturamento_categoria}\n")
-print(f"Categoria com maior faturamento: {faturamento_categoria.idxmax()} - Faturamento: {faturamento_categoria.max()}\n")
+# Faturamento de cada categoria
+faturamento_categoria = (
+    tbv.groupby("categoria_prod")["vl_total"].sum()
+)
 
-# Média de cada categoria:
-media_faturamento_categoria = tbv.groupby("categoria_prod")["vl_total"].mean()
-cateogira_maior_media = media_faturamento_categoria.max()
-print(f"Média de faturamento de cada categoria: {media_faturamento_categoria}\n")
-print(f"Categoria com maior média: {media_faturamento_categoria.idxmax()} - Média: {cateogira_maior_media:.2f}")
+print(
+    f"Faturamento de cada categoria:\n"
+    f"{faturamento_categoria}\n"
+)
+
+print(
+    f"Categoria com maior faturamento: "
+    f"{faturamento_categoria.idxmax()} - "
+    f"Faturamento: {faturamento_categoria.max():.2f}\n"
+)
+
+
+# Média de faturamento por categoria
+media_faturamento_categoria = (
+    tbv.groupby("categoria_prod")["vl_total"].mean()
+)
+
+categoria_maior_media = media_faturamento_categoria.max()
+
+print(
+    f"Média de faturamento de cada categoria:\n"
+    f"{media_faturamento_categoria}\n"
+)
+
+print(
+    f"Categoria com maior média: "
+    f"{media_faturamento_categoria.idxmax()} - "
+    f"Média: {categoria_maior_media:.2f}\n"
+)
 
 
 # ============================================================
 # 8. RELAÇÃO ENTRE CLIENTES E VENDAS
 # ============================================================
 
-
-# Quanto cada cliente gastou:
-
+# Relacionando clientes e vendas
 clientes_vendas = pd.merge(
     tbc,
     tbv,
@@ -177,195 +250,352 @@ clientes_vendas = pd.merge(
     right_on="cliente_id"
 )
 
-total_por_cliente = clientes_vendas.groupby(["id_cli", "nm_cliente"])["vl_total"].sum()
-print(f"\nTotal de gasto de cada cliente: {total_por_cliente}\n")
 
-# Clientes que mais gastou e os que compraram mais:
+# Quanto cada cliente gastou
+total_por_cliente = (
+    clientes_vendas
+    .groupby(["id_cli", "nm_cliente"])["vl_total"]
+    .sum()
+)
 
-total_por_cliente = clientes_vendas.groupby("id_cli")["vl_total"].sum().reset_index(name="total_gasto_cliente")
-top10_clientes = total_por_cliente.nlargest(10, "total_gasto_cliente")
+print(
+    f"\nTotal gasto por cada cliente:\n"
+    f"{total_por_cliente}\n"
+)
 
 
-qtd_por_cliente = clientes_vendas.groupby("id_cli")["qtd"].sum().reset_index(name="total_compras")
-top10_clientes_compras = qtd_por_cliente.nlargest(10, "total_compras")
+# Total gasto por cliente
+total_por_cliente = (
+    clientes_vendas
+    .groupby("id_cli")["vl_total"]
+    .sum()
+    .reset_index(name="total_gasto_cliente")
+)
 
-print(f"Top 10 clientes: {top10_clientes}\n")
 
-print(f"Clientes que realizaram mais compras: {top10_clientes_compras}\n")
+# Top 10 clientes que mais gastaram
+top10_clientes = (
+    total_por_cliente
+    .nlargest(10, "total_gasto_cliente")
+)
 
-# Quais clientes realizaram apenas uma compra:
 
-clientes_com_uma_compra = total_por_cliente[total_por_cliente == 1]
-print(f"Clientes que só fizeram 1 compra: {clientes_com_uma_compra}\n")
+# Quantidade de compras por cliente
+qtd_por_cliente = (
+    clientes_vendas
+    .groupby("id_cli")["qtd"]
+    .sum()
+    .reset_index(name="total_compras")
+)
+
+
+# Top 10 clientes que mais compraram
+top10_clientes_compras = (
+    qtd_por_cliente
+    .nlargest(10, "total_compras")
+)
+
+
+print(f"Top 10 clientes:\n{top10_clientes}\n")
+
+print(
+    f"Clientes que realizaram mais compras:\n"
+    f"{top10_clientes_compras}\n"
+)
+
+
+# Clientes que realizaram apenas uma compra
+clientes_com_uma_compra = (
+    total_por_cliente[total_por_cliente == 1]
+)
+
+print(
+    f"Clientes que só fizeram 1 compra:\n"
+    f"{clientes_com_uma_compra}\n"
+)
+
 
 # ============================================================
 # 9. RENDA x CONSUMO
 # ============================================================
 
-# Biografia dos clientes: 
+# Cliente que mais gastou
+cliente_mais_gastou = (
+    qtd_por_cliente.nlargest(1, "total_compras")
+)
 
-#r = tbc["id_cli"].count()
-#for i in range(1, r + 1):
-    #print(f'Nome: {tbc.loc[tbc["id_cli"] == i, "nm_cliente"]}')
-    #print(f'Renda mensal: {tbc.loc[tbc["id_cli"] == i, "renda_mensal"]}')
-    #print(f'Valor total gasto: {qtd_por_cliente.loc[qtd_por_cliente["id_cli"] == i, "total_compras"]}')
-    #print('====================================\n')
+nome_cliente_mais_gastou = tbc.loc[
+    tbc["id_cli"] == cliente_mais_gastou["id_cli"].iloc[0],
+    "nm_cliente"
+]
+
+renda_cliente_mais_gastou = tbc.loc[
+    tbc["id_cli"] == cliente_mais_gastou["id_cli"].iloc[0],
+    "renda_mensal"
+]
+
+valor_gasto_cliente_mais_gastou = (
+    total_por_cliente.nlargest(1, "total_gasto_cliente")
+)
 
 
-# Qual cliente gastou mais:
+# Cliente que menos gastou
+cliente_menos_gastou = (
+    qtd_por_cliente.nsmallest(1, "total_compras")
+)
 
-cliente_mais_gastou = qtd_por_cliente.nlargest(1, "total_compras")
-nome_cliente_mais_gastou = tbc.loc[tbc["id_cli"] == cliente_mais_gastou["id_cli"].iloc[0], "nm_cliente"]
-renda_cliente_mais_gastou = tbc.loc[tbc["id_cli"] == cliente_mais_gastou["id_cli"].iloc[0], "renda_mensal"]
-valor_gasto_cliente_mais_gastou = total_por_cliente.nlargest(1, "total_gasto_cliente")
+nome_cliente_menos_gastou = tbc.loc[
+    tbc["id_cli"] == cliente_menos_gastou["id_cli"].iloc[0],
+    "nm_cliente"
+]
 
-cliente_menos_gastou = qtd_por_cliente.nsmallest(1, "total_compras")
-nome_cliente_menos_gastou = tbc.loc[tbc["id_cli"] == cliente_menos_gastou["id_cli"].iloc[0], "nm_cliente"]
-renda_cliente_menos_gastou = tbc.loc[tbc["id_cli"] == cliente_mais_gastou["id_cli"].iloc[0], "renda_mensal"]
-valor_gasto_cliente_menos_gastou = total_por_cliente.nsmallest(1, "total_gasto_cliente")
+renda_cliente_menos_gastou = tbc.loc[
+    tbc["id_cli"] == cliente_menos_gastou["id_cli"].iloc[0],
+    "renda_mensal"
+]
 
-print(f"Cliente que mais gastou: {nome_cliente_mais_gastou}")
-print(f"Renda do cliente que mais gastou: {renda_cliente_mais_gastou}")
-print(f'Valor gasto: {valor_gasto_cliente_mais_gastou["total_gasto_cliente"]}')
+valor_gasto_cliente_menos_gastou = (
+    total_por_cliente.nsmallest(1, "total_gasto_cliente")
+)
 
-print(f"\nCliente que gastou menos: {nome_cliente_menos_gastou}")
-print(f"Renda do cliente que menos gastou: {renda_cliente_menos_gastou}")
-print(f'Valor gasto: {valor_gasto_cliente_menos_gastou["total_gasto_cliente"]}\n')
+
+print(f"Cliente que mais gastou: {nome_cliente_mais_gastou.iloc[0]}")
+print(f"Renda: {renda_cliente_mais_gastou.iloc[0]:.2f}")
+print(
+    f"Valor gasto: "
+    f"{valor_gasto_cliente_mais_gastou['total_gasto_cliente'].iloc[0]:.2f}\n"
+)
+
+print(f"Cliente que menos gastou: {nome_cliente_menos_gastou.iloc[0]}")
+print(f"Renda: {renda_cliente_menos_gastou.iloc[0]:.2f}")
+print(
+    f"Valor gasto: "
+    f"{valor_gasto_cliente_menos_gastou['total_gasto_cliente'].iloc[0]:.2f}\n"
+)
 
 
 # Clientes com maior renda tendem a gastar mais?
-# Sim, conforme a analise, o cliente com maior renda gastou mais em relaçao ao com menor renda.
+# Sim, conforme a análise, o cliente com maior renda
+# gastou mais em relação ao cliente com menor renda.
+
 
 # ============================================================
 # 10. ESTATÍSTICA COM NUMPY
 # ============================================================
 
-# Média dos valores de venda:
-qtd = np.dadoc["qtd"].to_numpy()
-preço = np.dadoc["vl_total"].to_numpy()
+# Valores das vendas
+qtd = tbv["qtd"].to_numpy()
+preço = tbv["vl_total"].to_numpy()
 
-media_vendas = (qtd * preço) / len(qtd)
-print(f"Média das vendas: {media_vendas}")
 
-# Mediana dos valores de venda:
+# Média dos valores de venda
+media_vendas = np.nansum(qtd * preço) / len(qtd)
 
-mediana_vendas = np.median(preço)
-print(f"Mediana: {mediana_vendas}")
+print(f"Média das vendas: {media_vendas:.2f}")
 
-# Menor valor de venda e o Maior valor de venda
 
-maior_preço = preço.nlargest(1, "qtd")
-menor_preço = preço.nsmallest(1, "qtd")
-print(f"Maior preço: {maior_preço}")
-print(f"Menor preço: {menor_preço}")
+# Mediana dos valores de venda
+mediana_vendas = np.nanmedian(preço)
 
-# A amplitude dos valores:
+print(f"Mediana: {mediana_vendas:.2f}\n")
+
+
+# Maior e menor valor de venda
+maior_preço = np.nanmax(preço)
+menor_preço = np.nanmin(preço)
+
+print(f"Maior preço: {maior_preço:.2f}")
+print(f"Menor preço: {menor_preço:.2f}\n")
+
+
+# Amplitude dos valores
 amplitude_preços = maior_preço - menor_preço
-print(f"Amplitude dos valores: {amplitude_preços}")
+
+print(f"Amplitude dos valores: {amplitude_preços:.2f}\n")
 
 
-# Calcule o desvio padrão dos valores de venda.
+# Diferença entre média e mediana
+comparando_media_mediana = media_vendas - mediana_vendas
+
+print(
+    f"Diferença entre média e mediana: "
+    f"{comparando_media_mediana:.2f}\n"
+)
 
 
-
-# Compare a média e a mediana.
-#
-# Elas são parecidas?
-# Ou existe uma diferença grande entre elas?
+# As médias são parecidas?
+# Não, existe uma diferença de 89.
 
 
+# Existem valores muito distantes?
+# Sim. Existem valores muito distantes da maior parte dos dados,
+# indicando uma grande dispersão e a possível presença de outliers.
 
-# Analise se existem valores muito distantes
 
-
-
-# Na sua opinião, a média representa bem os dados?
-# Nao, porque tem valores muito altos enquanto outros muito baixos, ou seja, o valor alto de certa forma "compensa" o valor baixo.
+# A média representa bem os dados?
+# Não, porque existem valores muito altos enquanto outros são
+# muito baixos. Dessa forma, os valores extremos podem influenciar
+# a média.
 
 
 # ============================================================
 # 11. GRÁFICOS — MATPLOTLIB
 # ============================================================
 
-# Questão 114:
-# Crie um gráfico mostrando a quantidade de clientes
-# por estado.
+# Quantidade de clientes por estado
+estados_count_clientes = (
+    tbc.groupby("sg_uf")["nm_cliente"].count()
+)
+
+estados = estados_count_clientes.index
+clientes = estados_count_clientes.values
+
+plt.plot(estados, clientes)
+
+plt.title("Quantidade de Clientes por Estado")
+plt.xlabel("Estados")
+plt.ylabel("Clientes")
+
+plt.show()
 
 
-# Questão 115:
-# Crie um gráfico mostrando a renda média
-# de cada estado.
+# Renda média por estado
+renda_por_cliente = renda_media_estado.values
+
+plt.plot(estados, renda_por_cliente)
+
+plt.title("Renda Média por Estado")
+plt.xlabel("Estados")
+plt.ylabel("Renda Média")
+
+plt.show()
 
 
-# Questão 116:
-# Crie um gráfico mostrando o faturamento
-# de cada categoria.
+# Faturamento por categoria
+valor_por_categoria = faturamento_categoria.values
+categorias = faturamento_categoria.index
+
+plt.plot(categorias, valor_por_categoria)
+
+plt.title("Faturamento de Cada Categoria")
+plt.xlabel("Categorias")
+plt.ylabel("Faturamento")
+
+plt.show()
 
 
-# Questão 117:
-# Crie um gráfico mostrando os 10 clientes
-# que mais gastaram.
+# Top 10 clientes que mais gastaram
+top10_id = top10_clientes["id_cli"].values
+top10_valor = top10_clientes["total_gasto_cliente"].values
+
+nomes_top10 = []
+
+for i in top10_id:
+    nomes_top10.append(
+        tbc.loc[
+            tbc["id_cli"] == i,
+            "nm_cliente"
+        ].iloc[0]
+    )
 
 
-# Questão 118:
-# Crie um gráfico comparando:
-#
-# Renda mensal x Valor gasto
-#
-# O objetivo é tentar visualizar se existe
-# relação entre renda e consumo.
+plt.figure(figsize=(10, 6))
+
+plt.bar(nomes_top10, top10_valor)
+
+plt.title("Top 10 Clientes que Mais Gastaram")
+plt.xlabel("Clientes")
+plt.ylabel("Valor Gasto")
+
+plt.xticks(rotation=45, ha="right")
+plt.tight_layout()
+
+plt.show()
 
 
 # ============================================================
 # 12. ANÁLISE FINAL
 # ============================================================
 
-# Questão 119:
-# Qual estado possui o melhor perfil de renda?
+# Estado que possui o melhor perfil de renda
+estado_perfil_renda = renda_media_estado.idxmax()
+
+print(
+    f"Estado que possui o melhor perfil de renda: "
+    f"{estado_perfil_renda}\n"
+)
 
 
-# Questão 120:
-# Qual estado possui mais clientes?
+# Estado que possui mais clientes
+estado_mais_clientes = qtd_clientes_estado.idxmax()
+
+print(
+    f"Estado com mais clientes: "
+    f"{estado_mais_clientes}\n"
+)
 
 
-# Questão 121:
-# Qual categoria gera mais dinheiro?
+# Categoria que gera mais dinheiro
+categoria_mais_lucro = faturamento_categoria.idxmax()
+
+print(
+    f"Categoria de produto que gera mais faturamento: "
+    f"{categoria_mais_lucro}"
+)
 
 
-# Questão 122:
-# Qual categoria possui mais vendas?
+# Categoria que possui mais vendas
+categoria_mais_vendas = qtd_vendas_categoria.idxmax()
+
+print(
+    f"Categoria de produto com mais vendas: "
+    f"{categoria_mais_vendas}\n"
+)
 
 
-# Questão 123:
-# Quem são os principais clientes da empresa?
+# Principais clientes
+print(f"Principais clientes: {nomes_top10}\n")
 
 
-# Questão 124:
 # Clientes de maior renda realmente gastam mais?
+# Sim.
 
 
-# Questão 125:
-# Qual faixa de renda é mais importante para a empresa?
+# Faixa de renda mais importante para a empresa
+faixa_mais_importante = tbc["class_renda"].idxmax()
+
+print(
+    f"Faixa de renda mais importante: "
+    f"{faixa_mais_importante}\n"
+)
 
 
-# Questão 126:
-# Existe algum estado que possui muitos clientes,
-# mas baixo faturamento?
+# Estado com muitos clientes, mas baixo faturamento
+# Sim. Por exemplo, a Bahia, que possui uma renda média de
+# 4952 e 104 clientes, quantidade acima da média.
 
 
-# Questão 127:
-# Existe algum estado com poucos clientes,
-# mas alto faturamento?
+# Estado com poucos clientes, mas alto faturamento
+# Sim. Por exemplo, São Paulo, que possui 23 clientes
+# e gera 6468 de faturamento.
 
 
-# Questão 128:
-# Existe alguma categoria que vende muito,
-# mas gera pouco dinheiro?
+# Categoria que vende muito, mas gera pouco dinheiro
+# Sim. Bebidas possui a terceira maior quantidade de vendas
+# e é a categoria que gera menos dinheiro.
 
 
-# Questão 129:
-# Se você fosse o analista da empresa,
-# qual seria sua principal recomendação?
+# Principal recomendação
+# A empresa deve priorizar os estados e categorias que apresentam
+# maior potencial de faturamento, principalmente São Paulo, que
+# possui poucos clientes, mas gera um faturamento elevado.
+#
+# Também seria interessante analisar a categoria de bebidas,
+# pois possui uma quantidade significativa de vendas, mas
+# apresenta baixo faturamento.
+#
+# Isso pode indicar uma oportunidade de aumentar o valor médio
+# das vendas dessa categoria.
 
 
 # ============================================================

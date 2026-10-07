@@ -202,12 +202,12 @@ print(f"Clientes que só fizeram 1 compra: {clientes_com_uma_compra}\n")
 
 # Biografia dos clientes: 
 
-#r = tbc["id_cli"].count()
-#for i in range(1, r + 1):
-    #print(f'Nome: {tbc.loc[tbc["id_cli"] == i, "nm_cliente"]}')
-    #print(f'Renda mensal: {tbc.loc[tbc["id_cli"] == i, "renda_mensal"]}')
-    #print(f'Valor total gasto: {qtd_por_cliente.loc[qtd_por_cliente["id_cli"] == i, "total_compras"]}')
-    #print('====================================\n')
+r = tbc["id_cli"].count()
+for i in range(1, r + 1):
+    print(f'Nome: {tbc.loc[tbc["id_cli"] == i, "nm_cliente"]}')
+    print(f'Renda mensal: {tbc.loc[tbc["id_cli"] == i, "renda_mensal"]}')
+    print(f'Valor total gasto: {qtd_por_cliente.loc[qtd_por_cliente["id_cli"] == i, "total_compras"]}')
+    print('====================================\n')
 
 
 # Qual cliente gastou mais:

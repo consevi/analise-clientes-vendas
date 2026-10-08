@@ -16,25 +16,6 @@ faturamento e relação entre renda e consumo.
 - NumPy
 - Matplotlib
 - Excel
-- PowerBl
-
-## Análises realizadas
-
-- Perfil dos clientes
-- Análise por estado
-- Análise por categoria
-- Ranking de clientes
-- Renda × consumo
-- Estatística descritiva
-- Visualização de dados
-
-## Principais resultados
-
-[suas descobertas]
-
-## Visualizações
-
-[imagens dos gráficos]
 
 ## Estrutura
 
